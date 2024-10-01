@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Visualisations | Mortality Data</title>
+  <!-- Import Vega & Vega-Lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS styles -->
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f4f4f9; /* Light background */
+      margin: 0;
+      padding: 0;
+    }
+
+    .page {
+      margin: 0 auto;
+      padding: 40px;
+      max-width: 1200px;
+      background-color: #ffffff; /* White background for content */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .vis-container {
+      margin-bottom: 50px; /* Gap between visualizations */
+      background-color: #eef2f7; /* Slightly tinted background for visuals */
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    /* Styling for the visualizations */
+    .pure-g {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    /* General spacing */
+    .spacing {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+
+    <!-- First Visualization (Choropleth Map) -->
+    <div class="pure-g">
+      <div class="pure-u-1">
+        <h2>Choropleth Map of Global Death Rates</h2>
+        <div id="vis1" class="vis-container"></div>
+      </div>
+    </div>
+
+    <!-- Spacing between visualizations -->
+    <div class="spacing"></div>
+
+    <!-- Second Visualization (Mortality Trends) -->
+    <div class="pure-g">
+      <div class="pure-u-1">
+        <h2>Mortality Trends Across Regions</h2>
+        <div id="vis2" class="vis-container"></div>
+      </div>
+    </div>
+
+  </div> <!-- end page -->
+
+  <script type="text/javascript">
+    var specVis1 = "Homework9.json";  // Choropleth Map JSON
+    var specVis2 = "Homework10.json"; // Mortality Trends JSON
+
+    // Embed first visualization (Choropleth Map)
+    vegaEmbed('#vis1', specVis1, { "actions": false }).catch(console.error);
+
+    // Embed second visualization (Mortality Trends)
+    vegaEmbed('#vis2', specVis2, { "actions": false }).catch(console.error);
+  </script>
+
+</body>
+
+</html>
