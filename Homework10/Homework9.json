@@ -7,7 +7,7 @@
       "subtitleFontSize": 15,
       "anchor": "start"
     },
-    "width": 800,
+    "width": 1100,
     "height": 600,
     "data": {
       "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/choropleth_map/js/ne_110m_admin_0_countries.topojson",
