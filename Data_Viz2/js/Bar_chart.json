@@ -1,0 +1,186 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Homework10/Life-Expectancy-Data-Updated.csv"
+  },
+  "width": 800,
+  "height": 600,
+  "title": {
+    "text": "Mortality Trends Across Regions",
+    "anchor": "middle"
+  },
+  "params": [
+    {
+      "name": "Year_Selection",
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2023,
+        "step": 1,
+        "name": "Year : "
+      }
+    },
+    {
+      "name": "Mortality_Type_Selection",
+      "bind": {
+        "input": "select",
+        "options": ["Adult_mortality", "Infant_deaths", "Under_five_deaths"],
+        "labels": ["Adult Mortality", "Infant Mortality", "Under Five Mortality"],
+        "name": "Mortality Type: "
+      },
+      "value": "Adult_mortality"
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Year > 0"},
+    {"filter": "Year_Selection == null || datum.Year == Year_Selection"},
+    {"filter": "datum.Adult_mortality > 0"},
+    {"filter": "datum.Infant_deaths > 0"},
+    {"filter": "datum.Under_five_deaths > 0"},
+    {
+      "fold": ["Adult_mortality", "Infant_deaths", "Under_five_deaths"],
+      "as": ["Mortality_Type", "Deaths"]
+    },
+    {"filter": "datum.Mortality_Type == Mortality_Type_Selection"},
+    {
+      "lookup": "Mortality_Type",
+      "from": {
+        "data": {
+          "values": [
+            {"Mortality_Type": "Adult_mortality", "Mortality_Type_Display": "Adult Mortality"},
+            {"Mortality_Type": "Infant_deaths", "Mortality_Type_Display": "Infant Mortality"},
+            {"Mortality_Type": "Under_five_deaths", "Mortality_Type_Display": "Under Five Mortality"}
+          ]
+        },
+        "key": "Mortality_Type",
+        "fields": ["Mortality_Type_Display"]
+      }
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "Deaths",
+          "as": "Total_Deaths"
+        }
+      ],
+      "groupby": ["Region", "Mortality_Type_Display"]
+    }
+  ],
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "Total_Deaths",
+          "type": "quantitative",
+          "title": "Total Deaths per 1000 Population",
+          "axis": {"tickCount": 6}
+        },
+        "y": {
+          "field": "Region",
+          "type": "nominal",
+          "title": "Region",
+          "axis": {"tickCount": 9}
+        },
+        "color": {
+          "field": "Mortality_Type_Display",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Adult Mortality", "Infant Mortality", "Under Five Mortality"],
+            "range": ["#bbe7fe", "#d3b5e5", "#ffd4db"]
+          },
+          "title": "Mortality Type"
+        },
+        "tooltip": [
+          {"field": "Region", "type": "nominal", "title": "Region"},
+          {
+            "field": "Total_Deaths",
+            "type": "quantitative",
+            "title": "Total Number of Deaths",
+            "format": "d"
+          },
+          {
+            "field": "Mortality_Type_Display",
+            "type": "nominal",
+            "title": "Mortality Type"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 5,
+        "dy": -5,
+        "fontSize": 12,
+        "fontWeight": "lighter",
+        "fontStyle": "italic",
+        "color": "#67595e"
+      },
+      "encoding": {
+        "y": {"value": 78},  
+        "x": {"value": 520}, 
+        "text": {"value": "Africa has the highest"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 5,
+        "dy": 5,  
+        "fontSize": 12,
+        "fontWeight": "lighter",
+        "fontStyle": "italic",
+        "color": "#67595e"
+      },
+      "encoding": {
+        "y": {"value": 85},  
+        "x": {"value": 520}, 
+        "text": {"value": "mortality rate for all types across all years."}
+      }
+    },
+    {
+  "mark": {
+    "type": "text",
+    "align": "right",
+    "baseline": "middle",
+    "dx": -5,
+    "dy": -10,  
+    "fontSize": 12,
+    "fontWeight": "lighter",
+    "fontStyle": "italic",
+    "color": "#67595e"
+  },
+  "encoding": {
+    "y": {"value": 370},  
+    "x": {"value": 290}, 
+    "text": {"value": "North America consistently has the"}
+  }
+},
+{
+  "mark": {
+    "type": "text",
+    "align": "right",
+    "baseline": "middle",
+    "dx": -5,
+    "dy": 10,  
+    "fontSize": 12,
+    "fontWeight": "lighter",
+    "fontStyle": "italic",
+    "color": "#67595e"
+  },
+  "encoding": {
+    "y": {"value": 370},  
+    "x": {"value": 215}, 
+    "text": {"value": "lowest mortality rate."}
+  }
+}
+
+  ],
+  "config": {}
+}

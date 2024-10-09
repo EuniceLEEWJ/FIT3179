@@ -1,0 +1,69 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/cause_of_death.csv",
+    "format": { "type": "csv" }
+  },
+  "title": {
+      "text": "Understanding Global Mortality Causes",
+      "fontSize": 20,
+      "anchor": "middle",
+      "dy": -10
+    },
+  "width": 900,
+  "height": 600,
+  "mark": "rect",
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "title": "Country",
+      "sort": null  
+    },
+    "x": {
+      "field": "Cause_of_Death",
+      "type": "nominal",
+      "title": "Cause of Death",
+      "axis": {
+        "labelAngle": -45  
+      }
+    },
+    "color": {
+      "aggregate": "sum",
+      "field": "Number_of_Deaths",
+      "title": "Number of Deaths",
+      "scale": {
+        "range": ["#ffe5ec", "#fb6f92", "#ff8fab", "#ffb3c6", "#ffc2d1"]
+      },
+      "legend": {
+        "orient": "right",
+        "title": "Number of Deaths"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Cause_of_Death",
+        "type": "nominal",
+        "title": "Cause of Death"
+      },
+      {
+        "aggregate": "sum",
+        "field": "Number_of_Deaths",
+        "type": "quantitative",
+        "title": "Total Deaths",
+        "format": ","
+      }
+    ]
+  },
+  "config": {
+    "axis": {
+      "grid": true,
+      "tickBand": "extent"
+    },
+    "title": {
+      "text": "Distribution of Causes of Death by Country",
+      "fontSize": 20,
+      "anchor": "middle"
+    }
+  }
+}
