@@ -1,0 +1,961 @@
+﻿state,date,ethnicity,population
+Johor,1/1/2013,Malay,1832.8
+Johor,1/1/2013,Bumiputera,57.5
+Johor,1/1/2013,Chinese,1065.7
+Johor,1/1/2013,Indian,224.2
+Johor,1/1/2013,Non-Citizen Residents,278.5
+Johor,1/1/2014,Malay,1858.7
+Johor,1/1/2014,Bumiputera,58.3
+Johor,1/1/2014,Chinese,1072.8
+Johor,1/1/2014,Indian,227.6
+Johor,1/1/2014,Non-Citizen Residents,325.1
+Johor,1/1/2015,Malay,1886.5
+Johor,1/1/2015,Bumiputera,59.3
+Johor,1/1/2015,Chinese,1078.8
+Johor,1/1/2015,Indian,230.8
+Johor,1/1/2015,Non-Citizen Residents,336.8
+Johor,1/1/2016,Malay,1908.6
+Johor,1/1/2016,Bumiputera,59
+Johor,1/1/2016,Chinese,1085.4
+Johor,1/1/2016,Indian,232.5
+Johor,1/1/2016,Non-Citizen Residents,347.4
+Johor,1/1/2017,Malay,1937
+Johor,1/1/2017,Bumiputera,60.9
+Johor,1/1/2017,Chinese,1092.8
+Johor,1/1/2017,Indian,235.6
+Johor,1/1/2017,Non-Citizen Residents,352.5
+Johor,1/1/2018,Malay,1971.3
+Johor,1/1/2018,Bumiputera,64.5
+Johor,1/1/2018,Chinese,1098.6
+Johor,1/1/2018,Indian,239.1
+Johor,1/1/2018,Non-Citizen Residents,357.2
+Johor,1/1/2019,Malay,2005.5
+Johor,1/1/2019,Bumiputera,68
+Johor,1/1/2019,Chinese,1103.9
+Johor,1/1/2019,Indian,241.8
+Johor,1/1/2019,Non-Citizen Residents,323.8
+Johor,1/1/2020,Malay,2158.4
+Johor,1/1/2020,Bumiputera,60.8
+Johor,1/1/2020,Chinese,1208.7
+Johor,1/1/2020,Indian,244.3
+Johor,1/1/2020,Non-Citizen Residents,319.2
+Johor,1/1/2021,Malay,2188.7
+Johor,1/1/2021,Bumiputera,57.5
+Johor,1/1/2021,Chinese,1211.5
+Johor,1/1/2021,Indian,244.9
+Johor,1/1/2021,Non-Citizen Residents,298.7
+Johor,1/1/2022,Malay,2208.6
+Johor,1/1/2022,Bumiputera,58.3
+Johor,1/1/2022,Chinese,1210.1
+Johor,1/1/2022,Indian,244.7
+Johor,1/1/2022,Non-Citizen Residents,287.6
+Johor,1/1/2023,Malay,2233.8
+Johor,1/1/2023,Bumiputera,59.3
+Johor,1/1/2023,Chinese,1211.1
+Johor,1/1/2023,Indian,245.8
+Johor,1/1/2023,Non-Citizen Residents,337.9
+Johor,1/1/2024,Malay,2258.7
+Johor,1/1/2024,Bumiputera,60.4
+Johor,1/1/2024,Chinese,1212.4
+Johor,1/1/2024,Indian,247.2
+Johor,1/1/2024,Non-Citizen Residents,387.9
+Kedah,1/1/2013,Malay,1533.5
+Kedah,1/1/2013,Bumiputera,3.9
+Kedah,1/1/2013,Chinese,257.3
+Kedah,1/1/2013,Indian,138.3
+Kedah,1/1/2013,Non-Citizen Residents,87.5
+Kedah,1/1/2014,Malay,1558
+Kedah,1/1/2014,Bumiputera,3
+Kedah,1/1/2014,Chinese,257.2
+Kedah,1/1/2014,Indian,138.9
+Kedah,1/1/2014,Non-Citizen Residents,85.6
+Kedah,1/1/2015,Malay,1583.5
+Kedah,1/1/2015,Bumiputera,3.1
+Kedah,1/1/2015,Chinese,257.6
+Kedah,1/1/2015,Indian,140.2
+Kedah,1/1/2015,Non-Citizen Residents,91.9
+Kedah,1/1/2016,Malay,1603
+Kedah,1/1/2016,Bumiputera,3.6
+Kedah,1/1/2016,Chinese,257.3
+Kedah,1/1/2016,Indian,140.5
+Kedah,1/1/2016,Non-Citizen Residents,94.4
+Kedah,1/1/2017,Malay,1625.4
+Kedah,1/1/2017,Bumiputera,3.8
+Kedah,1/1/2017,Chinese,256.5
+Kedah,1/1/2017,Indian,141
+Kedah,1/1/2017,Non-Citizen Residents,95.9
+Kedah,1/1/2018,Malay,1643
+Kedah,1/1/2018,Bumiputera,3.3
+Kedah,1/1/2018,Chinese,257.8
+Kedah,1/1/2018,Indian,140.9
+Kedah,1/1/2018,Non-Citizen Residents,96.4
+Kedah,1/1/2019,Malay,1661
+Kedah,1/1/2019,Bumiputera,2.4
+Kedah,1/1/2019,Chinese,259.1
+Kedah,1/1/2019,Indian,140.8
+Kedah,1/1/2019,Non-Citizen Residents,88.2
+Kedah,1/1/2020,Malay,1624.8
+Kedah,1/1/2020,Bumiputera,8
+Kedah,1/1/2020,Chinese,250.6
+Kedah,1/1/2020,Indian,129.1
+Kedah,1/1/2020,Non-Citizen Residents,93.3
+Kedah,1/1/2021,Malay,1653
+Kedah,1/1/2021,Bumiputera,4.6
+Kedah,1/1/2021,Chinese,250.6
+Kedah,1/1/2021,Indian,129.1
+Kedah,1/1/2021,Non-Citizen Residents,88.8
+Kedah,1/1/2022,Malay,1665.5
+Kedah,1/1/2022,Bumiputera,4.7
+Kedah,1/1/2022,Chinese,249.5
+Kedah,1/1/2022,Indian,128.6
+Kedah,1/1/2022,Non-Citizen Residents,89.1
+Kedah,1/1/2023,Malay,1682
+Kedah,1/1/2023,Bumiputera,4.7
+Kedah,1/1/2023,Chinese,248.6
+Kedah,1/1/2023,Indian,128.6
+Kedah,1/1/2023,Non-Citizen Residents,99.6
+Kedah,1/1/2024,Malay,1697.9
+Kedah,1/1/2024,Bumiputera,4.8
+Kedah,1/1/2024,Chinese,247.7
+Kedah,1/1/2024,Indian,128.5
+Kedah,1/1/2024,Non-Citizen Residents,112.8
+Kelantan,1/1/2013,Malay,1553.8
+Kelantan,1/1/2013,Bumiputera,18.7
+Kelantan,1/1/2013,Chinese,53.1
+Kelantan,1/1/2013,Indian,4.7
+Kelantan,1/1/2013,Non-Citizen Residents,42.4
+Kelantan,1/1/2014,Malay,1585.8
+Kelantan,1/1/2014,Bumiputera,19.3
+Kelantan,1/1/2014,Chinese,54
+Kelantan,1/1/2014,Indian,4.8
+Kelantan,1/1/2014,Non-Citizen Residents,48.7
+Kelantan,1/1/2015,Malay,1620.2
+Kelantan,1/1/2015,Bumiputera,19.5
+Kelantan,1/1/2015,Chinese,54.7
+Kelantan,1/1/2015,Indian,4.8
+Kelantan,1/1/2015,Non-Citizen Residents,50.7
+Kelantan,1/1/2016,Malay,1653.6
+Kelantan,1/1/2016,Bumiputera,19.4
+Kelantan,1/1/2016,Chinese,55.4
+Kelantan,1/1/2016,Indian,4.8
+Kelantan,1/1/2016,Non-Citizen Residents,52.4
+Kelantan,1/1/2017,Malay,1683.4
+Kelantan,1/1/2017,Bumiputera,20.6
+Kelantan,1/1/2017,Chinese,55.8
+Kelantan,1/1/2017,Indian,4.8
+Kelantan,1/1/2017,Non-Citizen Residents,53.5
+Kelantan,1/1/2018,Malay,1713.1
+Kelantan,1/1/2018,Bumiputera,20.6
+Kelantan,1/1/2018,Chinese,56.3
+Kelantan,1/1/2018,Indian,4.8
+Kelantan,1/1/2018,Non-Citizen Residents,54.2
+Kelantan,1/1/2019,Malay,1740.4
+Kelantan,1/1/2019,Bumiputera,20.9
+Kelantan,1/1/2019,Chinese,56.8
+Kelantan,1/1/2019,Indian,4.8
+Kelantan,1/1/2019,Non-Citizen Residents,49.2
+Kelantan,1/1/2020,Malay,1671.4
+Kelantan,1/1/2020,Bumiputera,25.4
+Kelantan,1/1/2020,Chinese,44.7
+Kelantan,1/1/2020,Indian,4.7
+Kelantan,1/1/2020,Non-Citizen Residents,35.3
+Kelantan,1/1/2021,Malay,1695
+Kelantan,1/1/2021,Bumiputera,21.9
+Kelantan,1/1/2021,Chinese,44.7
+Kelantan,1/1/2021,Indian,4.8
+Kelantan,1/1/2021,Non-Citizen Residents,35
+Kelantan,1/1/2022,Malay,1714.1
+Kelantan,1/1/2022,Bumiputera,22.2
+Kelantan,1/1/2022,Chinese,44.5
+Kelantan,1/1/2022,Indian,4.8
+Kelantan,1/1/2022,Non-Citizen Residents,34.1
+Kelantan,1/1/2023,Malay,1736.8
+Kelantan,1/1/2023,Bumiputera,22.5
+Kelantan,1/1/2023,Chinese,44.3
+Kelantan,1/1/2023,Indian,4.8
+Kelantan,1/1/2023,Non-Citizen Residents,40.3
+Kelantan,1/1/2024,Malay,1758.7
+Kelantan,1/1/2024,Bumiputera,22.8
+Kelantan,1/1/2024,Chinese,44.2
+Kelantan,1/1/2024,Indian,4.7
+Kelantan,1/1/2024,Non-Citizen Residents,47.1
+Melaka,1/1/2013,Malay,536.8
+Melaka,1/1/2013,Bumiputera,12.5
+Melaka,1/1/2013,Chinese,213
+Melaka,1/1/2013,Indian,48.6
+Melaka,1/1/2013,Non-Citizen Residents,41.6
+Melaka,1/1/2014,Malay,547.5
+Melaka,1/1/2014,Bumiputera,12.8
+Melaka,1/1/2014,Chinese,214.2
+Melaka,1/1/2014,Indian,49.2
+Melaka,1/1/2014,Non-Citizen Residents,43.5
+Melaka,1/1/2015,Malay,558.8
+Melaka,1/1/2015,Bumiputera,13.7
+Melaka,1/1/2015,Chinese,215.9
+Melaka,1/1/2015,Indian,49.9
+Melaka,1/1/2015,Non-Citizen Residents,45.9
+Melaka,1/1/2016,Malay,568.9
+Melaka,1/1/2016,Bumiputera,13.5
+Melaka,1/1/2016,Chinese,216.9
+Melaka,1/1/2016,Indian,50.6
+Melaka,1/1/2016,Non-Citizen Residents,47
+Melaka,1/1/2017,Malay,578.8
+Melaka,1/1/2017,Bumiputera,14
+Melaka,1/1/2017,Chinese,216.8
+Melaka,1/1/2017,Indian,50.8
+Melaka,1/1/2017,Non-Citizen Residents,47.7
+Melaka,1/1/2018,Malay,586.7
+Melaka,1/1/2018,Bumiputera,14.6
+Melaka,1/1/2018,Chinese,217.2
+Melaka,1/1/2018,Indian,51.1
+Melaka,1/1/2018,Non-Citizen Residents,47.7
+Melaka,1/1/2019,Malay,594.5
+Melaka,1/1/2019,Bumiputera,14.9
+Melaka,1/1/2019,Chinese,217.4
+Melaka,1/1/2019,Indian,51.4
+Melaka,1/1/2019,Non-Citizen Residents,44.6
+Melaka,1/1/2020,Malay,653.9
+Melaka,1/1/2020,Bumiputera,10.8
+Melaka,1/1/2020,Chinese,205.2
+Melaka,1/1/2020,Indian,52.4
+Melaka,1/1/2020,Non-Citizen Residents,71.1
+Melaka,1/1/2021,Malay,663.1
+Melaka,1/1/2021,Bumiputera,9.5
+Melaka,1/1/2021,Chinese,204.9
+Melaka,1/1/2021,Indian,52.4
+Melaka,1/1/2021,Non-Citizen Residents,69.3
+Melaka,1/1/2022,Malay,669.6
+Melaka,1/1/2022,Bumiputera,9.6
+Melaka,1/1/2022,Chinese,204.3
+Melaka,1/1/2022,Indian,52.4
+Melaka,1/1/2022,Non-Citizen Residents,67.5
+Melaka,1/1/2023,Malay,677
+Melaka,1/1/2023,Bumiputera,9.8
+Melaka,1/1/2023,Chinese,203.8
+Melaka,1/1/2023,Indian,52.4
+Melaka,1/1/2023,Non-Citizen Residents,80
+Melaka,1/1/2024,Malay,684.2
+Melaka,1/1/2024,Bumiputera,9.9
+Melaka,1/1/2024,Chinese,203.4
+Melaka,1/1/2024,Indian,52.5
+Melaka,1/1/2024,Non-Citizen Residents,91.8
+Negeri Sembilan,1/1/2013,Malay,591.6
+Negeri Sembilan,1/1/2013,Bumiputera,20.3
+Negeri Sembilan,1/1/2013,Chinese,228.2
+Negeri Sembilan,1/1/2013,Indian,151.7
+Negeri Sembilan,1/1/2013,Non-Citizen Residents,76.9
+Negeri Sembilan,1/1/2014,Malay,595.9
+Negeri Sembilan,1/1/2014,Bumiputera,20.5
+Negeri Sembilan,1/1/2014,Chinese,229.2
+Negeri Sembilan,1/1/2014,Indian,153.5
+Negeri Sembilan,1/1/2014,Non-Citizen Residents,76.7
+Negeri Sembilan,1/1/2015,Malay,606.1
+Negeri Sembilan,1/1/2015,Bumiputera,20.6
+Negeri Sembilan,1/1/2015,Chinese,229.1
+Negeri Sembilan,1/1/2015,Indian,152.6
+Negeri Sembilan,1/1/2015,Non-Citizen Residents,76.1
+Negeri Sembilan,1/1/2016,Malay,611.5
+Negeri Sembilan,1/1/2016,Bumiputera,21.2
+Negeri Sembilan,1/1/2016,Chinese,229.8
+Negeri Sembilan,1/1/2016,Indian,153.7
+Negeri Sembilan,1/1/2016,Non-Citizen Residents,79.2
+Negeri Sembilan,1/1/2017,Malay,623.6
+Negeri Sembilan,1/1/2017,Bumiputera,21.6
+Negeri Sembilan,1/1/2017,Chinese,229.3
+Negeri Sembilan,1/1/2017,Indian,154.3
+Negeri Sembilan,1/1/2017,Non-Citizen Residents,81.6
+Negeri Sembilan,1/1/2018,Malay,631.7
+Negeri Sembilan,1/1/2018,Bumiputera,21.2
+Negeri Sembilan,1/1/2018,Chinese,229.4
+Negeri Sembilan,1/1/2018,Indian,154.1
+Negeri Sembilan,1/1/2018,Non-Citizen Residents,83
+Negeri Sembilan,1/1/2019,Malay,639.6
+Negeri Sembilan,1/1/2019,Bumiputera,20.9
+Negeri Sembilan,1/1/2019,Chinese,229.6
+Negeri Sembilan,1/1/2019,Indian,154
+Negeri Sembilan,1/1/2019,Non-Citizen Residents,78.2
+Negeri Sembilan,1/1/2020,Malay,693.3
+Negeri Sembilan,1/1/2020,Bumiputera,23.2
+Negeri Sembilan,1/1/2020,Chinese,248.5
+Negeri Sembilan,1/1/2020,Indian,161.6
+Negeri Sembilan,1/1/2020,Non-Citizen Residents,67.7
+Negeri Sembilan,1/1/2021,Malay,704.4
+Negeri Sembilan,1/1/2021,Bumiputera,22
+Negeri Sembilan,1/1/2021,Chinese,248.3
+Negeri Sembilan,1/1/2021,Indian,162.4
+Negeri Sembilan,1/1/2021,Non-Citizen Residents,61.3
+Negeri Sembilan,1/1/2022,Malay,711.9
+Negeri Sembilan,1/1/2022,Bumiputera,22.2
+Negeri Sembilan,1/1/2022,Chinese,247.4
+Negeri Sembilan,1/1/2022,Indian,162.4
+Negeri Sembilan,1/1/2022,Non-Citizen Residents,58.1
+Negeri Sembilan,1/1/2023,Malay,720
+Negeri Sembilan,1/1/2023,Bumiputera,22.5
+Negeri Sembilan,1/1/2023,Chinese,246.7
+Negeri Sembilan,1/1/2023,Indian,162.9
+Negeri Sembilan,1/1/2023,Non-Citizen Residents,66.8
+Negeri Sembilan,1/1/2024,Malay,727.5
+Negeri Sembilan,1/1/2024,Bumiputera,22.9
+Negeri Sembilan,1/1/2024,Chinese,246
+Negeri Sembilan,1/1/2024,Indian,163.2
+Negeri Sembilan,1/1/2024,Non-Citizen Residents,74.5
+Pahang,1/1/2013,Malay,1094.6
+Pahang,1/1/2013,Bumiputera,76.6
+Pahang,1/1/2013,Chinese,233.4
+Pahang,1/1/2013,Indian,64.3
+Pahang,1/1/2013,Non-Citizen Residents,93.1
+Pahang,1/1/2014,Malay,1111.7
+Pahang,1/1/2014,Bumiputera,77.8
+Pahang,1/1/2014,Chinese,233
+Pahang,1/1/2014,Indian,64.7
+Pahang,1/1/2014,Non-Citizen Residents,98.5
+Pahang,1/1/2015,Malay,1127
+Pahang,1/1/2015,Bumiputera,77
+Pahang,1/1/2015,Chinese,233.1
+Pahang,1/1/2015,Indian,64.5
+Pahang,1/1/2015,Non-Citizen Residents,101
+Pahang,1/1/2016,Malay,1141.6
+Pahang,1/1/2016,Bumiputera,77.9
+Pahang,1/1/2016,Chinese,232.6
+Pahang,1/1/2016,Indian,64.9
+Pahang,1/1/2016,Non-Citizen Residents,104.4
+Pahang,1/1/2017,Malay,1156.8
+Pahang,1/1/2017,Bumiputera,79.5
+Pahang,1/1/2017,Chinese,232.7
+Pahang,1/1/2017,Indian,65.3
+Pahang,1/1/2017,Non-Citizen Residents,106.9
+Pahang,1/1/2018,Malay,1170.4
+Pahang,1/1/2018,Bumiputera,80.7
+Pahang,1/1/2018,Chinese,232.7
+Pahang,1/1/2018,Indian,66.5
+Pahang,1/1/2018,Non-Citizen Residents,108.2
+Pahang,1/1/2019,Malay,1183.9
+Pahang,1/1/2019,Bumiputera,82.5
+Pahang,1/1/2019,Chinese,232.6
+Pahang,1/1/2019,Indian,67.7
+Pahang,1/1/2019,Non-Citizen Residents,98.9
+Pahang,1/1/2020,Malay,1134.2
+Pahang,1/1/2020,Bumiputera,92.2
+Pahang,1/1/2020,Chinese,221.7
+Pahang,1/1/2020,Indian,55.9
+Pahang,1/1/2020,Non-Citizen Residents,78.1
+Pahang,1/1/2021,Malay,1149.7
+Pahang,1/1/2021,Bumiputera,91.6
+Pahang,1/1/2021,Chinese,221.3
+Pahang,1/1/2021,Indian,55.8
+Pahang,1/1/2021,Non-Citizen Residents,73.8
+Pahang,1/1/2022,Malay,1161.4
+Pahang,1/1/2022,Bumiputera,92.9
+Pahang,1/1/2022,Chinese,220.6
+Pahang,1/1/2022,Indian,55.8
+Pahang,1/1/2022,Non-Citizen Residents,74.2
+Pahang,1/1/2023,Malay,1173.9
+Pahang,1/1/2023,Bumiputera,94.4
+Pahang,1/1/2023,Chinese,220
+Pahang,1/1/2023,Indian,55.8
+Pahang,1/1/2023,Non-Citizen Residents,89.6
+Pahang,1/1/2024,Malay,1185.3
+Pahang,1/1/2024,Bumiputera,95.8
+Pahang,1/1/2024,Chinese,219.3
+Pahang,1/1/2024,Indian,55.9
+Pahang,1/1/2024,Non-Citizen Residents,102.2
+Perak,1/1/2013,Malay,1282.6
+Perak,1/1/2013,Bumiputera,70.2
+Perak,1/1/2013,Chinese,705
+Perak,1/1/2013,Indian,287.5
+Perak,1/1/2013,Non-Citizen Residents,93.2
+Perak,1/1/2014,Malay,1295.9
+Perak,1/1/2014,Bumiputera,73
+Perak,1/1/2014,Chinese,702.9
+Perak,1/1/2014,Indian,285
+Perak,1/1/2014,Non-Citizen Residents,92.8
+Perak,1/1/2015,Malay,1301.4
+Perak,1/1/2015,Bumiputera,74.6
+Perak,1/1/2015,Chinese,703.1
+Perak,1/1/2015,Indian,283
+Perak,1/1/2015,Non-Citizen Residents,95.4
+Perak,1/1/2016,Malay,1315.8
+Perak,1/1/2016,Bumiputera,77.9
+Perak,1/1/2016,Chinese,700.1
+Perak,1/1/2016,Indian,280.4
+Perak,1/1/2016,Non-Citizen Residents,98.6
+Perak,1/1/2017,Malay,1327.9
+Perak,1/1/2017,Bumiputera,79
+Perak,1/1/2017,Chinese,695.9
+Perak,1/1/2017,Indian,279.5
+Perak,1/1/2017,Non-Citizen Residents,100.9
+Perak,1/1/2018,Malay,1338.5
+Perak,1/1/2018,Bumiputera,81.3
+Perak,1/1/2018,Chinese,694.1
+Perak,1/1/2018,Indian,277.4
+Perak,1/1/2018,Non-Citizen Residents,102.1
+Perak,1/1/2019,Malay,1350.3
+Perak,1/1/2019,Bumiputera,83
+Perak,1/1/2019,Chinese,692.2
+Perak,1/1/2019,Indian,275.7
+Perak,1/1/2019,Non-Citizen Residents,97.7
+Perak,1/1/2020,Malay,1364.8
+Perak,1/1/2020,Bumiputera,74.9
+Perak,1/1/2020,Chinese,643.6
+Perak,1/1/2020,Indian,270.8
+Perak,1/1/2020,Non-Citizen Residents,131.2
+Perak,1/1/2021,Malay,1385.7
+Perak,1/1/2021,Bumiputera,73.9
+Perak,1/1/2021,Chinese,642.9
+Perak,1/1/2021,Indian,271.7
+Perak,1/1/2021,Non-Citizen Residents,130.8
+Perak,1/1/2022,Malay,1396.8
+Perak,1/1/2022,Bumiputera,74.4
+Perak,1/1/2022,Chinese,638.3
+Perak,1/1/2022,Indian,271.2
+Perak,1/1/2022,Non-Citizen Residents,122.9
+Perak,1/1/2023,Malay,1409.1
+Perak,1/1/2023,Bumiputera,75.2
+Perak,1/1/2023,Chinese,634.5
+Perak,1/1/2023,Indian,270.9
+Perak,1/1/2023,Non-Citizen Residents,140.6
+Perak,1/1/2024,Malay,1420.7
+Perak,1/1/2024,Bumiputera,76
+Perak,1/1/2024,Chinese,630.7
+Perak,1/1/2024,Indian,270.7
+Perak,1/1/2024,Non-Citizen Residents,160.4
+Perlis,1/1/2013,Malay,206.9
+Perlis,1/1/2013,Bumiputera,1.1
+Perlis,1/1/2013,Chinese,19.1
+Perlis,1/1/2013,Indian,3.1
+Perlis,1/1/2013,Non-Citizen Residents,7.3
+Perlis,1/1/2014,Malay,208.6
+Perlis,1/1/2014,Bumiputera,1.1
+Perlis,1/1/2014,Chinese,19.1
+Perlis,1/1/2014,Indian,3.1
+Perlis,1/1/2014,Non-Citizen Residents,8.2
+Perlis,1/1/2015,Malay,212
+Perlis,1/1/2015,Bumiputera,0.9
+Perlis,1/1/2015,Chinese,19.2
+Perlis,1/1/2015,Indian,3.1
+Perlis,1/1/2015,Non-Citizen Residents,8.5
+Perlis,1/1/2016,Malay,214.3
+Perlis,1/1/2016,Bumiputera,0.9
+Perlis,1/1/2016,Chinese,19.2
+Perlis,1/1/2016,Indian,3.1
+Perlis,1/1/2016,Non-Citizen Residents,8.7
+Perlis,1/1/2017,Malay,215.4
+Perlis,1/1/2017,Bumiputera,1
+Perlis,1/1/2017,Chinese,18.9
+Perlis,1/1/2017,Indian,3.1
+Perlis,1/1/2017,Non-Citizen Residents,8.9
+Perlis,1/1/2018,Malay,217
+Perlis,1/1/2018,Bumiputera,1.1
+Perlis,1/1/2018,Chinese,18.9
+Perlis,1/1/2018,Indian,3.1
+Perlis,1/1/2018,Non-Citizen Residents,8.9
+Perlis,1/1/2019,Malay,217.7
+Perlis,1/1/2019,Bumiputera,1.1
+Perlis,1/1/2019,Chinese,18.9
+Perlis,1/1/2019,Indian,3.1
+Perlis,1/1/2019,Non-Citizen Residents,8.1
+Perlis,1/1/2020,Malay,245.4
+Perlis,1/1/2020,Bumiputera,1.9
+Perlis,1/1/2020,Chinese,20.5
+Perlis,1/1/2020,Indian,5.1
+Perlis,1/1/2020,Non-Citizen Residents,6.4
+Perlis,1/1/2021,Malay,247.8
+Perlis,1/1/2021,Bumiputera,1.5
+Perlis,1/1/2021,Chinese,20.4
+Perlis,1/1/2021,Indian,5.1
+Perlis,1/1/2021,Non-Citizen Residents,7.3
+Perlis,1/1/2022,Malay,249.4
+Perlis,1/1/2022,Bumiputera,1.5
+Perlis,1/1/2022,Chinese,20.2
+Perlis,1/1/2022,Indian,5.1
+Perlis,1/1/2022,Non-Citizen Residents,7.9
+Perlis,1/1/2023,Malay,250.9
+Perlis,1/1/2023,Bumiputera,1.5
+Perlis,1/1/2023,Chinese,20.1
+Perlis,1/1/2023,Indian,5.1
+Perlis,1/1/2023,Non-Citizen Residents,9.8
+Perlis,1/1/2024,Malay,252.6
+Perlis,1/1/2024,Bumiputera,1.5
+Perlis,1/1/2024,Chinese,20
+Perlis,1/1/2024,Indian,5.1
+Perlis,1/1/2024,Non-Citizen Residents,11.9
+Pulau Pinang,1/1/2013,Malay,674.2
+Pulau Pinang,1/1/2013,Bumiputera,5.9
+Pulau Pinang,1/1/2013,Chinese,681.3
+Pulau Pinang,1/1/2013,Indian,161.5
+Pulau Pinang,1/1/2013,Non-Citizen Residents,134.5
+Pulau Pinang,1/1/2014,Malay,687.6
+Pulau Pinang,1/1/2014,Bumiputera,5.2
+Pulau Pinang,1/1/2014,Chinese,683.5
+Pulau Pinang,1/1/2014,Indian,161.9
+Pulau Pinang,1/1/2014,Non-Citizen Residents,134.5
+Pulau Pinang,1/1/2015,Malay,697.3
+Pulau Pinang,1/1/2015,Bumiputera,4.5
+Pulau Pinang,1/1/2015,Chinese,685.8
+Pulau Pinang,1/1/2015,Indian,164.3
+Pulau Pinang,1/1/2015,Non-Citizen Residents,141.2
+Pulau Pinang,1/1/2016,Malay,707.1
+Pulau Pinang,1/1/2016,Bumiputera,4.6
+Pulau Pinang,1/1/2016,Chinese,688.9
+Pulau Pinang,1/1/2016,Indian,165.7
+Pulau Pinang,1/1/2016,Non-Citizen Residents,146.3
+Pulau Pinang,1/1/2017,Malay,723.3
+Pulau Pinang,1/1/2017,Bumiputera,5
+Pulau Pinang,1/1/2017,Chinese,694.2
+Pulau Pinang,1/1/2017,Indian,166.1
+Pulau Pinang,1/1/2017,Non-Citizen Residents,150.3
+Pulau Pinang,1/1/2018,Malay,739.4
+Pulau Pinang,1/1/2018,Bumiputera,5.3
+Pulau Pinang,1/1/2018,Chinese,694.2
+Pulau Pinang,1/1/2018,Indian,166.5
+Pulau Pinang,1/1/2018,Non-Citizen Residents,152.3
+Pulau Pinang,1/1/2019,Malay,753.9
+Pulau Pinang,1/1/2019,Bumiputera,5.5
+Pulau Pinang,1/1/2019,Chinese,694
+Pulau Pinang,1/1/2019,Indian,166.8
+Pulau Pinang,1/1/2019,Non-Citizen Residents,143.4
+Pulau Pinang,1/1/2020,Malay,707.9
+Pulau Pinang,1/1/2020,Bumiputera,8
+Pulau Pinang,1/1/2020,Chinese,718.4
+Pulau Pinang,1/1/2020,Indian,155.5
+Pulau Pinang,1/1/2020,Non-Citizen Residents,140.5
+Pulau Pinang,1/1/2021,Malay,715.3
+Pulau Pinang,1/1/2021,Bumiputera,6.9
+Pulau Pinang,1/1/2021,Chinese,718.2
+Pulau Pinang,1/1/2021,Indian,155.5
+Pulau Pinang,1/1/2021,Non-Citizen Residents,133.8
+Pulau Pinang,1/1/2022,Malay,721.4
+Pulau Pinang,1/1/2022,Bumiputera,7
+Pulau Pinang,1/1/2022,Chinese,715.2
+Pulau Pinang,1/1/2022,Indian,155.1
+Pulau Pinang,1/1/2022,Non-Citizen Residents,132
+Pulau Pinang,1/1/2023,Malay,728.8
+Pulau Pinang,1/1/2023,Bumiputera,7.1
+Pulau Pinang,1/1/2023,Chinese,713.2
+Pulau Pinang,1/1/2023,Indian,155.1
+Pulau Pinang,1/1/2023,Non-Citizen Residents,158.2
+Pulau Pinang,1/1/2024,Malay,735.9
+Pulau Pinang,1/1/2024,Bumiputera,7.2
+Pulau Pinang,1/1/2024,Chinese,711.1
+Pulau Pinang,1/1/2024,Indian,155
+Pulau Pinang,1/1/2024,Non-Citizen Residents,181
+Sabah,1/1/2013,Malay,252.1
+Sabah,1/1/2013,Bumiputera,1864.4
+Sabah,1/1/2013,Chinese,301.5
+Sabah,1/1/2013,Indian,12.2
+Sabah,1/1/2013,Non-Citizen Residents,1071.5
+Sabah,1/1/2014,Malay,262.5
+Sabah,1/1/2014,Bumiputera,1891.1
+Sabah,1/1/2014,Chinese,303.6
+Sabah,1/1/2014,Indian,12.2
+Sabah,1/1/2014,Non-Citizen Residents,1086.1
+Sabah,1/1/2015,Malay,273.3
+Sabah,1/1/2015,Bumiputera,1921.3
+Sabah,1/1/2015,Chinese,303.5
+Sabah,1/1/2015,Indian,12.2
+Sabah,1/1/2015,Non-Citizen Residents,1094
+Sabah,1/1/2016,Malay,281.5
+Sabah,1/1/2016,Bumiputera,1951.3
+Sabah,1/1/2016,Chinese,307
+Sabah,1/1/2016,Indian,12.3
+Sabah,1/1/2016,Non-Citizen Residents,1129.2
+Sabah,1/1/2017,Malay,288.3
+Sabah,1/1/2017,Bumiputera,1976.7
+Sabah,1/1/2017,Chinese,307
+Sabah,1/1/2017,Indian,13.1
+Sabah,1/1/2017,Non-Citizen Residents,1148
+Sabah,1/1/2018,Malay,295.3
+Sabah,1/1/2018,Bumiputera,1999.3
+Sabah,1/1/2018,Chinese,306.9
+Sabah,1/1/2018,Indian,13.2
+Sabah,1/1/2018,Non-Citizen Residents,1158.7
+Sabah,1/1/2019,Malay,302.7
+Sabah,1/1/2019,Bumiputera,2026.6
+Sabah,1/1/2019,Chinese,307.2
+Sabah,1/1/2019,Indian,13.3
+Sabah,1/1/2019,Non-Citizen Residents,1127.1
+Sabah,1/1/2020,Malay,236.9
+Sabah,1/1/2020,Bumiputera,2076.5
+Sabah,1/1/2020,Chinese,248.9
+Sabah,1/1/2020,Indian,6
+Sabah,1/1/2020,Non-Citizen Residents,810.4
+Sabah,1/1/2021,Malay,312.2
+Sabah,1/1/2021,Bumiputera,2025.7
+Sabah,1/1/2021,Chinese,248
+Sabah,1/1/2021,Indian,5.9
+Sabah,1/1/2021,Non-Citizen Residents,779.5
+Sabah,1/1/2022,Malay,316.1
+Sabah,1/1/2022,Bumiputera,2040.4
+Sabah,1/1/2022,Chinese,246.1
+Sabah,1/1/2022,Indian,5.9
+Sabah,1/1/2022,Non-Citizen Residents,764.2
+Sabah,1/1/2023,Malay,321.7
+Sabah,1/1/2023,Bumiputera,2059.7
+Sabah,1/1/2023,Chinese,244.8
+Sabah,1/1/2023,Indian,5.9
+Sabah,1/1/2023,Non-Citizen Residents,921.1
+Sabah,1/1/2024,Malay,326.8
+Sabah,1/1/2024,Bumiputera,2077.8
+Sabah,1/1/2024,Chinese,243.5
+Sabah,1/1/2024,Indian,5.9
+Sabah,1/1/2024,Non-Citizen Residents,1043.4
+Sarawak,1/1/2013,Malay,598.9
+Sarawak,1/1/2013,Bumiputera,1252.6
+Sarawak,1/1/2013,Chinese,602.4
+Sarawak,1/1/2013,Indian,7.3
+Sarawak,1/1/2013,Non-Citizen Residents,173.7
+Sarawak,1/1/2014,Malay,607.8
+Sarawak,1/1/2014,Bumiputera,1272
+Sarawak,1/1/2014,Chinese,606.7
+Sarawak,1/1/2014,Indian,7.4
+Sarawak,1/1/2014,Non-Citizen Residents,162.6
+Sarawak,1/1/2015,Malay,616.6
+Sarawak,1/1/2015,Bumiputera,1288.7
+Sarawak,1/1/2015,Chinese,611.7
+Sarawak,1/1/2015,Indian,7.5
+Sarawak,1/1/2015,Non-Citizen Residents,169.4
+Sarawak,1/1/2016,Malay,624.7
+Sarawak,1/1/2016,Bumiputera,1307.5
+Sarawak,1/1/2016,Chinese,615.8
+Sarawak,1/1/2016,Indian,7.5
+Sarawak,1/1/2016,Non-Citizen Residents,175.3
+Sarawak,1/1/2017,Malay,633
+Sarawak,1/1/2017,Bumiputera,1320.1
+Sarawak,1/1/2017,Chinese,619.2
+Sarawak,1/1/2017,Indian,7.6
+Sarawak,1/1/2017,Non-Citizen Residents,178.8
+Sarawak,1/1/2018,Malay,640.3
+Sarawak,1/1/2018,Bumiputera,1332.8
+Sarawak,1/1/2018,Chinese,622
+Sarawak,1/1/2018,Indian,7.7
+Sarawak,1/1/2018,Non-Citizen Residents,180.7
+Sarawak,1/1/2019,Malay,647.7
+Sarawak,1/1/2019,Bumiputera,1345.7
+Sarawak,1/1/2019,Chinese,625
+Sarawak,1/1/2019,Indian,7.7
+Sarawak,1/1/2019,Non-Citizen Residents,171.4
+Sarawak,1/1/2020,Malay,575.4
+Sarawak,1/1/2020,Bumiputera,1187
+Sarawak,1/1/2020,Chinese,554.6
+Sarawak,1/1/2020,Indian,5.1
+Sarawak,1/1/2020,Non-Citizen Residents,125.3
+Sarawak,1/1/2021,Malay,585.3
+Sarawak,1/1/2021,Bumiputera,1193.5
+Sarawak,1/1/2021,Chinese,556.2
+Sarawak,1/1/2021,Indian,5
+Sarawak,1/1/2021,Non-Citizen Residents,119.1
+Sarawak,1/1/2022,Malay,591
+Sarawak,1/1/2022,Bumiputera,1199.1
+Sarawak,1/1/2022,Chinese,555.8
+Sarawak,1/1/2022,Indian,5
+Sarawak,1/1/2022,Non-Citizen Residents,116.2
+Sarawak,1/1/2023,Malay,597.6
+Sarawak,1/1/2023,Bumiputera,1209
+Sarawak,1/1/2023,Chinese,556.6
+Sarawak,1/1/2023,Indian,5
+Sarawak,1/1/2023,Non-Citizen Residents,127.6
+Sarawak,1/1/2024,Malay,603.5
+Sarawak,1/1/2024,Bumiputera,1218
+Sarawak,1/1/2024,Chinese,557.3
+Sarawak,1/1/2024,Indian,5.1
+Sarawak,1/1/2024,Non-Citizen Residents,127.7
+Selangor,1/1/2013,Malay,3014
+Selangor,1/1/2013,Bumiputera,80.5
+Selangor,1/1/2013,Chinese,1496.4
+Selangor,1/1/2013,Indian,702.2
+Selangor,1/1/2013,Non-Citizen Residents,572.2
+Selangor,1/1/2014,Malay,3090.9
+Selangor,1/1/2014,Bumiputera,82.3
+Selangor,1/1/2014,Chinese,1513.8
+Selangor,1/1/2014,Indian,711.2
+Selangor,1/1/2014,Non-Citizen Residents,611.3
+Selangor,1/1/2015,Malay,3169
+Selangor,1/1/2015,Bumiputera,83.6
+Selangor,1/1/2015,Chinese,1531.7
+Selangor,1/1/2015,Indian,715.5
+Selangor,1/1/2015,Non-Citizen Residents,634.5
+Selangor,1/1/2016,Malay,3240.5
+Selangor,1/1/2016,Bumiputera,85.1
+Selangor,1/1/2016,Chinese,1544
+Selangor,1/1/2016,Indian,719.6
+Selangor,1/1/2016,Non-Citizen Residents,656.9
+Selangor,1/1/2017,Malay,3301.5
+Selangor,1/1/2017,Bumiputera,86.4
+Selangor,1/1/2017,Chinese,1553.4
+Selangor,1/1/2017,Indian,724
+Selangor,1/1/2017,Non-Citizen Residents,668.4
+Selangor,1/1/2018,Malay,3369.9
+Selangor,1/1/2018,Bumiputera,90.4
+Selangor,1/1/2018,Chinese,1560.3
+Selangor,1/1/2018,Indian,727.8
+Selangor,1/1/2018,Non-Citizen Residents,677.5
+Selangor,1/1/2019,Malay,3436.3
+Selangor,1/1/2019,Bumiputera,94.8
+Selangor,1/1/2019,Chinese,1567.1
+Selangor,1/1/2019,Indian,731
+Selangor,1/1/2019,Non-Citizen Residents,626.7
+Selangor,1/1/2020,Malay,3806.2
+Selangor,1/1/2020,Bumiputera,89.7
+Selangor,1/1/2020,Chinese,1756.2
+Selangor,1/1/2020,Indian,726
+Selangor,1/1/2020,Non-Citizen Residents,564
+Selangor,1/1/2021,Malay,3865.7
+Selangor,1/1/2021,Bumiputera,81
+Selangor,1/1/2021,Chinese,1759
+Selangor,1/1/2021,Indian,728.2
+Selangor,1/1/2021,Non-Citizen Residents,526.9
+Selangor,1/1/2022,Malay,3907.9
+Selangor,1/1/2022,Bumiputera,82.2
+Selangor,1/1/2022,Chinese,1757.8
+Selangor,1/1/2022,Indian,727.6
+Selangor,1/1/2022,Non-Citizen Residents,519.9
+Selangor,1/1/2023,Malay,3956.8
+Selangor,1/1/2023,Bumiputera,83.7
+Selangor,1/1/2023,Chinese,1758.7
+Selangor,1/1/2023,Indian,729.1
+Selangor,1/1/2023,Non-Citizen Residents,624.9
+Selangor,1/1/2024,Malay,4002.3
+Selangor,1/1/2024,Bumiputera,85.3
+Selangor,1/1/2024,Chinese,1759.1
+Selangor,1/1/2024,Indian,730.6
+Selangor,1/1/2024,Non-Citizen Residents,728.6
+Terengganu,1/1/2013,Malay,1053.3
+Terengganu,1/1/2013,Bumiputera,3.3
+Terengganu,1/1/2013,Chinese,27.2
+Terengganu,1/1/2013,Indian,2.7
+Terengganu,1/1/2013,Non-Citizen Residents,24.8
+Terengganu,1/1/2014,Malay,1073.1
+Terengganu,1/1/2014,Bumiputera,3.5
+Terengganu,1/1/2014,Chinese,27.8
+Terengganu,1/1/2014,Indian,2.7
+Terengganu,1/1/2014,Non-Citizen Residents,31.1
+Terengganu,1/1/2015,Malay,1092.5
+Terengganu,1/1/2015,Bumiputera,3.8
+Terengganu,1/1/2015,Chinese,27.7
+Terengganu,1/1/2015,Indian,2.7
+Terengganu,1/1/2015,Non-Citizen Residents,32.3
+Terengganu,1/1/2016,Malay,1113.1
+Terengganu,1/1/2016,Bumiputera,3.8
+Terengganu,1/1/2016,Chinese,28.3
+Terengganu,1/1/2016,Indian,2.4
+Terengganu,1/1/2016,Non-Citizen Residents,33.6
+Terengganu,1/1/2017,Malay,1135.6
+Terengganu,1/1/2017,Bumiputera,3.8
+Terengganu,1/1/2017,Chinese,28.4
+Terengganu,1/1/2017,Indian,2.5
+Terengganu,1/1/2017,Non-Citizen Residents,34.7
+Terengganu,1/1/2018,Malay,1154.6
+Terengganu,1/1/2018,Bumiputera,3.8
+Terengganu,1/1/2018,Chinese,28.5
+Terengganu,1/1/2018,Indian,2.5
+Terengganu,1/1/2018,Non-Citizen Residents,35.4
+Terengganu,1/1/2019,Malay,1174.3
+Terengganu,1/1/2019,Bumiputera,4
+Terengganu,1/1/2019,Chinese,28.5
+Terengganu,1/1/2019,Indian,2.5
+Terengganu,1/1/2019,Non-Citizen Residents,32.2
+Terengganu,1/1/2020,Malay,1090.4
+Terengganu,1/1/2020,Bumiputera,5.2
+Terengganu,1/1/2020,Chinese,23.2
+Terengganu,1/1/2020,Indian,2.1
+Terengganu,1/1/2020,Non-Citizen Residents,26.4
+Terengganu,1/1/2021,Malay,1111.2
+Terengganu,1/1/2021,Bumiputera,3.3
+Terengganu,1/1/2021,Chinese,23
+Terengganu,1/1/2021,Indian,2.1
+Terengganu,1/1/2021,Non-Citizen Residents,28.8
+Terengganu,1/1/2022,Malay,1127.4
+Terengganu,1/1/2022,Bumiputera,3.3
+Terengganu,1/1/2022,Chinese,22.9
+Terengganu,1/1/2022,Indian,2.1
+Terengganu,1/1/2022,Non-Citizen Residents,28.6
+Terengganu,1/1/2023,Malay,1145.1
+Terengganu,1/1/2023,Bumiputera,3.3
+Terengganu,1/1/2023,Chinese,22.8
+Terengganu,1/1/2023,Indian,2.1
+Terengganu,1/1/2023,Non-Citizen Residents,34.4
+Terengganu,1/1/2024,Malay,1162.3
+Terengganu,1/1/2024,Bumiputera,3.4
+Terengganu,1/1/2024,Chinese,22.7
+Terengganu,1/1/2024,Indian,2.1
+Terengganu,1/1/2024,Non-Citizen Residents,39.3
+W.P. Kuala Lumpur,1/1/2013,Malay,691.1
+W.P. Kuala Lumpur,1/1/2013,Bumiputera,19.6
+W.P. Kuala Lumpur,1/1/2013,Chinese,661
+W.P. Kuala Lumpur,1/1/2013,Indian,155.1
+W.P. Kuala Lumpur,1/1/2013,Non-Citizen Residents,180.2
+W.P. Kuala Lumpur,1/1/2014,Malay,692.9
+W.P. Kuala Lumpur,1/1/2014,Bumiputera,20.8
+W.P. Kuala Lumpur,1/1/2014,Chinese,658.4
+W.P. Kuala Lumpur,1/1/2014,Indian,153.8
+W.P. Kuala Lumpur,1/1/2014,Non-Citizen Residents,194.8
+W.P. Kuala Lumpur,1/1/2015,Malay,695.6
+W.P. Kuala Lumpur,1/1/2015,Bumiputera,22
+W.P. Kuala Lumpur,1/1/2015,Chinese,657
+W.P. Kuala Lumpur,1/1/2015,Indian,153.5
+W.P. Kuala Lumpur,1/1/2015,Non-Citizen Residents,234.7
+W.P. Kuala Lumpur,1/1/2016,Malay,700.8
+W.P. Kuala Lumpur,1/1/2016,Bumiputera,21.6
+W.P. Kuala Lumpur,1/1/2016,Chinese,654.9
+W.P. Kuala Lumpur,1/1/2016,Indian,151.7
+W.P. Kuala Lumpur,1/1/2016,Non-Citizen Residents,242.7
+W.P. Kuala Lumpur,1/1/2017,Malay,702.2
+W.P. Kuala Lumpur,1/1/2017,Bumiputera,21.8
+W.P. Kuala Lumpur,1/1/2017,Chinese,654.5
+W.P. Kuala Lumpur,1/1/2017,Indian,151.3
+W.P. Kuala Lumpur,1/1/2017,Non-Citizen Residents,245.1
+W.P. Kuala Lumpur,1/1/2018,Malay,698.8
+W.P. Kuala Lumpur,1/1/2018,Bumiputera,21.1
+W.P. Kuala Lumpur,1/1/2018,Chinese,654.2
+W.P. Kuala Lumpur,1/1/2018,Indian,151.4
+W.P. Kuala Lumpur,1/1/2018,Non-Citizen Residents,246
+W.P. Kuala Lumpur,1/1/2019,Malay,698.5
+W.P. Kuala Lumpur,1/1/2019,Bumiputera,20.2
+W.P. Kuala Lumpur,1/1/2019,Chinese,654.9
+W.P. Kuala Lumpur,1/1/2019,Indian,151.8
+W.P. Kuala Lumpur,1/1/2019,Non-Citizen Residents,237.6
+W.P. Kuala Lumpur,1/1/2020,Malay,824.6
+W.P. Kuala Lumpur,1/1/2020,Bumiputera,21.7
+W.P. Kuala Lumpur,1/1/2020,Chinese,737.2
+W.P. Kuala Lumpur,1/1/2020,Indian,178.1
+W.P. Kuala Lumpur,1/1/2020,Non-Citizen Residents,208.4
+W.P. Kuala Lumpur,1/1/2021,Malay,829.7
+W.P. Kuala Lumpur,1/1/2021,Bumiputera,19.6
+W.P. Kuala Lumpur,1/1/2021,Chinese,732.4
+W.P. Kuala Lumpur,1/1/2021,Indian,177.5
+W.P. Kuala Lumpur,1/1/2021,Non-Citizen Residents,192.4
+W.P. Kuala Lumpur,1/1/2022,Malay,837.2
+W.P. Kuala Lumpur,1/1/2022,Bumiputera,19.9
+W.P. Kuala Lumpur,1/1/2022,Chinese,730.7
+W.P. Kuala Lumpur,1/1/2022,Indian,177
+W.P. Kuala Lumpur,1/1/2022,Non-Citizen Residents,183.6
+W.P. Kuala Lumpur,1/1/2023,Malay,846.4
+W.P. Kuala Lumpur,1/1/2023,Bumiputera,20.3
+W.P. Kuala Lumpur,1/1/2023,Chinese,730.5
+W.P. Kuala Lumpur,1/1/2023,Indian,177
+W.P. Kuala Lumpur,1/1/2023,Non-Citizen Residents,218.6
+W.P. Kuala Lumpur,1/1/2024,Malay,855.2
+W.P. Kuala Lumpur,1/1/2024,Bumiputera,20.7
+W.P. Kuala Lumpur,1/1/2024,Chinese,729.9
+W.P. Kuala Lumpur,1/1/2024,Indian,176.9
+W.P. Kuala Lumpur,1/1/2024,Non-Citizen Residents,271.3
+W.P. Labuan,1/1/2013,Malay,32.5
+W.P. Labuan,1/1/2013,Bumiputera,38.8
+W.P. Labuan,1/1/2013,Chinese,9.5
+W.P. Labuan,1/1/2013,Indian,0.7
+W.P. Labuan,1/1/2013,Non-Citizen Residents,8.1
+W.P. Labuan,1/1/2014,Malay,32.9
+W.P. Labuan,1/1/2014,Bumiputera,38.6
+W.P. Labuan,1/1/2014,Chinese,9.5
+W.P. Labuan,1/1/2014,Indian,0.7
+W.P. Labuan,1/1/2014,Non-Citizen Residents,9.9
+W.P. Labuan,1/1/2015,Malay,33.1
+W.P. Labuan,1/1/2015,Bumiputera,39.1
+W.P. Labuan,1/1/2015,Chinese,9.5
+W.P. Labuan,1/1/2015,Indian,0.7
+W.P. Labuan,1/1/2015,Non-Citizen Residents,10.4
+W.P. Labuan,1/1/2016,Malay,33.2
+W.P. Labuan,1/1/2016,Bumiputera,39.7
+W.P. Labuan,1/1/2016,Chinese,9.5
+W.P. Labuan,1/1/2016,Indian,0.7
+W.P. Labuan,1/1/2016,Non-Citizen Residents,10.7
+W.P. Labuan,1/1/2017,Malay,32.9
+W.P. Labuan,1/1/2017,Bumiputera,40.8
+W.P. Labuan,1/1/2017,Chinese,9.5
+W.P. Labuan,1/1/2017,Indian,0.8
+W.P. Labuan,1/1/2017,Non-Citizen Residents,11
+W.P. Labuan,1/1/2018,Malay,33.6
+W.P. Labuan,1/1/2018,Bumiputera,41.2
+W.P. Labuan,1/1/2018,Chinese,9.6
+W.P. Labuan,1/1/2018,Indian,0.8
+W.P. Labuan,1/1/2018,Non-Citizen Residents,11.1
+W.P. Labuan,1/1/2019,Malay,34.3
+W.P. Labuan,1/1/2019,Bumiputera,41.3
+W.P. Labuan,1/1/2019,Chinese,9.6
+W.P. Labuan,1/1/2019,Indian,0.8
+W.P. Labuan,1/1/2019,Non-Citizen Residents,10
+W.P. Labuan,1/1/2020,Malay,23.6
+W.P. Labuan,1/1/2020,Bumiputera,49
+W.P. Labuan,1/1/2020,Chinese,9.8
+W.P. Labuan,1/1/2020,Indian,0.9
+W.P. Labuan,1/1/2020,Non-Citizen Residents,10.8
+W.P. Labuan,1/1/2021,Malay,34.6
+W.P. Labuan,1/1/2021,Bumiputera,39.4
+W.P. Labuan,1/1/2021,Chinese,9.8
+W.P. Labuan,1/1/2021,Indian,0.9
+W.P. Labuan,1/1/2021,Non-Citizen Residents,10.4
+W.P. Labuan,1/1/2022,Malay,34.9
+W.P. Labuan,1/1/2022,Bumiputera,39.9
+W.P. Labuan,1/1/2022,Chinese,9.7
+W.P. Labuan,1/1/2022,Indian,0.9
+W.P. Labuan,1/1/2022,Non-Citizen Residents,10.3
+W.P. Labuan,1/1/2023,Malay,24.8
+W.P. Labuan,1/1/2023,Bumiputera,51
+W.P. Labuan,1/1/2023,Chinese,9.7
+W.P. Labuan,1/1/2023,Indian,0.9
+W.P. Labuan,1/1/2023,Non-Citizen Residents,11.4
+W.P. Labuan,1/1/2024,Malay,25.2
+W.P. Labuan,1/1/2024,Bumiputera,51.5
+W.P. Labuan,1/1/2024,Chinese,9.7
+W.P. Labuan,1/1/2024,Indian,0.9
+W.P. Labuan,1/1/2024,Non-Citizen Residents,12.2
+W.P. Putrajaya,1/1/2013,Malay,74.6
+W.P. Putrajaya,1/1/2013,Bumiputera,0.6
+W.P. Putrajaya,1/1/2013,Chinese,0.5
+W.P. Putrajaya,1/1/2013,Indian,1
+W.P. Putrajaya,1/1/2013,Non-Citizen Residents,2.6
+W.P. Putrajaya,1/1/2014,Malay,75.5
+W.P. Putrajaya,1/1/2014,Bumiputera,0.7
+W.P. Putrajaya,1/1/2014,Chinese,0.5
+W.P. Putrajaya,1/1/2014,Indian,1.1
+W.P. Putrajaya,1/1/2014,Non-Citizen Residents,2.8
+W.P. Putrajaya,1/1/2015,Malay,77.4
+W.P. Putrajaya,1/1/2015,Bumiputera,0.8
+W.P. Putrajaya,1/1/2015,Chinese,0.5
+W.P. Putrajaya,1/1/2015,Indian,1.1
+W.P. Putrajaya,1/1/2015,Non-Citizen Residents,3.1
+W.P. Putrajaya,1/1/2016,Malay,78.4
+W.P. Putrajaya,1/1/2016,Bumiputera,0.9
+W.P. Putrajaya,1/1/2016,Chinese,0.5
+W.P. Putrajaya,1/1/2016,Indian,1.1
+W.P. Putrajaya,1/1/2016,Non-Citizen Residents,3.2
+W.P. Putrajaya,1/1/2017,Malay,81.3
+W.P. Putrajaya,1/1/2017,Bumiputera,0.8
+W.P. Putrajaya,1/1/2017,Chinese,0.5
+W.P. Putrajaya,1/1/2017,Indian,1.2
+W.P. Putrajaya,1/1/2017,Non-Citizen Residents,3.3
+W.P. Putrajaya,1/1/2018,Malay,89.3
+W.P. Putrajaya,1/1/2018,Bumiputera,1.5
+W.P. Putrajaya,1/1/2018,Chinese,1.5
+W.P. Putrajaya,1/1/2018,Indian,1.5
+W.P. Putrajaya,1/1/2018,Non-Citizen Residents,3.3
+W.P. Putrajaya,1/1/2019,Malay,94.9
+W.P. Putrajaya,1/1/2019,Bumiputera,1.8
+W.P. Putrajaya,1/1/2019,Chinese,2.1
+W.P. Putrajaya,1/1/2019,Indian,1.7
+W.P. Putrajaya,1/1/2019,Non-Citizen Residents,3.1
+W.P. Putrajaya,1/1/2020,Malay,101.8
+W.P. Putrajaya,1/1/2020,Bumiputera,2.3
+W.P. Putrajaya,1/1/2020,Chinese,0.7
+W.P. Putrajaya,1/1/2020,Indian,1.3
+W.P. Putrajaya,1/1/2020,Non-Citizen Residents,2.8
+W.P. Putrajaya,1/1/2021,Malay,107.1
+W.P. Putrajaya,1/1/2021,Bumiputera,2.2
+W.P. Putrajaya,1/1/2021,Chinese,0.6
+W.P. Putrajaya,1/1/2021,Indian,1.3
+W.P. Putrajaya,1/1/2021,Non-Citizen Residents,3.7
+W.P. Putrajaya,1/1/2022,Malay,108.7
+W.P. Putrajaya,1/1/2022,Bumiputera,2.3
+W.P. Putrajaya,1/1/2022,Chinese,0.6
+W.P. Putrajaya,1/1/2022,Indian,1.4
+W.P. Putrajaya,1/1/2022,Non-Citizen Residents,3.7
+W.P. Putrajaya,1/1/2023,Malay,110.2
+W.P. Putrajaya,1/1/2023,Bumiputera,2.3
+W.P. Putrajaya,1/1/2023,Chinese,0.6
+W.P. Putrajaya,1/1/2023,Indian,1.4
+W.P. Putrajaya,1/1/2023,Non-Citizen Residents,4
+W.P. Putrajaya,1/1/2024,Malay,111.5
+W.P. Putrajaya,1/1/2024,Bumiputera,2.3
+W.P. Putrajaya,1/1/2024,Chinese,0.6
+W.P. Putrajaya,1/1/2024,Indian,1.4
+W.P. Putrajaya,1/1/2024,Non-Citizen Residents,4.1
