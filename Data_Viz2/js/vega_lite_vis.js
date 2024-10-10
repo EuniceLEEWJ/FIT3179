@@ -1,6 +1,6 @@
 var vg_1 = "Map.json";
 var vg_2 = "heatmap.json";
-var vg_3 = "Bar_Chart.json";
+var vg_3 = "Bar_chart.json";
 var vg_4 = "stacked_bar_chart.json";
 var vg_5 = "donut_chart.json";
 var vg_6 = "stacked_area_chart.json";
