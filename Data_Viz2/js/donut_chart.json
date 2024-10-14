@@ -43,7 +43,7 @@
           "field": "Gender",
           "scale": {
             "domain": ["Female", "Male"],
-            "range": ["#bd97cb", "#fbc740"]
+            "range": ["#ffafcc","#fbc740"]
           }
         },
         "tooltip": [
