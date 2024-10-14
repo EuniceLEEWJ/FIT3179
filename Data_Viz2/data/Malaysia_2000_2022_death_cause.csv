@@ -1,0 +1,231 @@
+Year,Gender,Cause,Number of Cases
+2000,Male,"Ischaemic heart diseases",3047
+2000,Male,"Transport accidents",2443
+2000,Male,"Cerebrovascular diseases",1788
+2000,Male,"Septicaemia",1612
+2000,Male,"Pneumonia",1147
+2000,Female,"Ischaemic heart diseases",1499
+2000,Female,"Cerebrovascular diseases",1449
+2000,Female,"Septicaemia",1129
+2000,Female,"Pneumonia",675
+2000,Female,"Transport accidents",465
+2001,Male,"Ischaemic heart diseases",3514
+2001,Male,"Transport accidents",2577
+2001,Male,"Cerebrovascular diseases",1954
+2001,Male,"Septicaemia",1814
+2001,Male,"Pneumonia",1492
+2001,Female,"Cerebrovascular diseases",1697
+2001,Female,"Ischaemic heart diseases",1693
+2001,Female,"Septicaemia",1357
+2001,Female,"Pneumonia",882
+2001,Female,"Certain conditions originating in the perinatal period",560
+2002,Male,"Ischaemic heart diseases",3800
+2002,Male,"Transport accidents",2760
+2002,Male,"Cerebrovascular diseases",2068
+2002,Male,"Septicaemia",2038
+2002,Male,"Pneumonia",1561
+2002,Female,"Ischaemic heart diseases",1974
+2002,Female,"Cerebrovascular diseases",1727
+2002,Female,"Septicaemia",1495
+2002,Female,"Pneumonia",978
+2002,Female,"Transport accidents",505
+2003,Male,"Ischaemic heart diseases",4002
+2003,Male,"Transport accidents",3080
+2003,Male,"Septicaemia",2462
+2003,Male,"Cerebrovascular diseases",2135
+2003,Male,"Pneumonia",1639
+2003,Female,"Ischaemic heart diseases",1955
+2003,Female,"Septicaemia",1915
+2003,Female,"Cerebrovascular diseases",1839
+2003,Female,"Pneumonia",1079
+2003,Female,"Transport accidents",523
+2004,Male,"Ischaemic heart diseases",4309
+2004,Male,"Transport accidents",3066
+2004,Male,"Septicaemia",2476
+2004,Male,"Cerebrovascular diseases",2269
+2004,Male,"Pneumonia",1786
+2004,Female,"Septicaemia",2002
+2004,Female,"Ischaemic heart diseases",1958
+2004,Female,"Cerebrovascular diseases",1761
+2004,Female,"Pneumonia",1180
+2004,Female,"Transport accidents",549
+2005,Male,"Ischaemic heart diseases",4787
+2005,Male,"Transport accidents",3109
+2005,Male,"Cerebrovascular diseases",2404
+2005,Male,"Septicaemia",2266
+2005,Male,"Pneumonia",1944
+2005,Female,"Ischaemic heart diseases",2297
+2005,Female,"Cerebrovascular diseases",1885
+2005,Female,"Septicaemia",1778
+2005,Female,"Pneumonia",1353
+2005,Female,"Transport accidents",612
+2006,Male,"Ischaemic heart diseases",5301
+2006,Male,"Transport accidents",3313
+2006,Male,"Cerebrovascular diseases",2360
+2006,Male,"Septicaemia",2242
+2006,Male,"Pneumonia",2130
+2006,Female,"Ischaemic heart diseases",2535
+2006,Female,"Cerebrovascular diseases",1925
+2006,Female,"Septicaemia",1811
+2006,Female,"Pneumonia",1472
+2006,Female,"Malignant neoplasm of breast",677
+2007,Male,"Ischaemic heart diseases",6004
+2007,Male,"Transport accidents",3307
+2007,Male,"Cerebrovascular diseases",2507
+2007,Male,"Pneumonia",2455
+2007,Male,"Septicaemia",2165
+2007,Female,"Ischaemic heart diseases",2772
+2007,Female,"Cerebrovascular diseases",1958
+2007,Female,"Septicaemia",1810
+2007,Female,"Pneumonia",1794
+2007,Female,"Malignant neoplasm of breast",742
+2008,Male,"Ischaemic heart diseases",6474
+2008,Male,"Transport accidents",3588
+2008,Male,"Pneumonia",3058
+2008,Male,"Cerebrovascular diseases",2564
+2008,Male,"Septicaemia",2161
+2008,Female,"Ischaemic heart diseases",2961
+2008,Female,"Pneumonia",2196
+2008,Female,"Cerebrovascular diseases",2073
+2008,Female,"Septicaemia",1574
+2008,Female,"Malignant neoplasm of breast",821
+2009,Male,"Ischaemic heart diseases",6411
+2009,Male,"Transport accidents",3835
+2009,Male,"Pneumonia",3540
+2009,Male,"Cerebrovascular diseases",2539
+2009,Male,"Septicaemia",2405
+2009,Female,"Ischaemic heart diseases",2950
+2009,Female,"Pneumonia",2566
+2009,Female,"Cerebrovascular diseases",1972
+2009,Female,"Septicaemia",1812
+2009,Female,"Malignant neoplasm of breast",870
+2010,Male,"Ischaemic heart diseases",6447
+2010,Male,"Transport accidents",3934
+2010,Male,"Pneumonia",3880
+2010,Male,"Cerebrovascular diseases",2656
+2010,Male,"Septicaemia",2505
+2010,Female,"Ischaemic heart diseases",2924
+2010,Female,"Pneumonia",2624
+2010,Female,"Cerebrovascular diseases",2107
+2010,Female,"Septicaemia",2021
+2010,Female,"Malignant neoplasm of breast",864
+2011,Male,"Ischaemic heart diseases",6933
+2011,Male,"Pneumonia",4398
+2011,Male,"Transport accidents",3768
+2011,Male,"Cerebrovascular diseases",2894
+2011,Male,"Septicaemia",2555
+2011,Female,"Pneumonia",3120
+2011,Female,"Ischaemic heart diseases",3071
+2011,Female,"Cerebrovascular diseases",2218
+2011,Female,"Septicaemia",1985
+2011,Female,"Malignant neoplasm of breast",905
+2012,Male,"Ischaemic heart diseases",6967
+2012,Male,"Pneumonia",4685
+2012,Male,"Transport accidents",3860
+2012,Male,"Cerebrovascular diseases",3027
+2012,Male,"Septicaemia",2645
+2012,Female,"Pneumonia",3346
+2012,Female,"Ischaemic heart diseases",3124
+2012,Female,"Cerebrovascular diseases",2193
+2012,Female,"Septicaemia",2053
+2012,Female,"Malignant neoplasm of breast",972
+2013,Male,"Ischaemic heart diseases",7016
+2013,Male,"Pneumonia",5344
+2013,Male,"Transport accidents",3852
+2013,Male,"Cerebrovascular diseases",2979
+2013,Male,"Septicaemia",2602
+2013,Female,"Pneumonia",3798
+2013,Female,"Ischaemic heart diseases",3153
+2013,Female,"Cerebrovascular diseases",2177
+2013,Female,"Septicaemia",2009
+2013,Female,"Malignant neoplasm of breast",1028
+2014,Male,"Ischaemic heart diseases",7295
+2014,Male,"Pneumonia",5333
+2014,Male,"Transport accidents",3636
+2014,Male,"Cerebrovascular diseases",3170
+2014,Male,"Septicaemia",2627
+2014,Female,"Pneumonia",3917
+2014,Female,"Ischaemic heart diseases",3137
+2014,Female,"Cerebrovascular diseases",2304
+2014,Female,"Septicaemia",2071
+2014,Female,"Malignant neoplasm of breast",1060
+2015,Male,"Ischaemic heart diseases",7691
+2015,Male,"Pneumonia",5804
+2015,Male,"Transport accidents",3496
+2015,Male,"Cerebrovascular diseases",3235
+2015,Male,"Malignant neoplasm of trachea, bronchus and lung",1246
+2015,Female,"Pneumonia",4396
+2015,Female,"Ischaemic heart diseases",3327
+2015,Female,"Cerebrovascular diseases",2443
+2015,Female,"Septicaemia",1067
+2015,Female,"Malignant neoplasm of breast",700
+2016,Male,"Ischaemic heart diseases",8033
+2016,Male,"Pneumonia",6041
+2016,Male,"Transport accidents",3923
+2016,Male,"Cerebrovascular diseases",3369
+2016,Male,"Malignant neoplasm of trachea, bronchus and lung",1287
+2016,Female,"Pneumonia",4637
+2016,Female,"Ischaemic heart diseases",3277
+2016,Female,"Cerebrovascular diseases",2507
+2016,Female,"Malignant neoplasm of breast",1249
+2016,Female,"Transport accidents",717
+2017,Male,"Ischaemic heart diseases",9496
+2017,Male,"Pneumonia",6994
+2017,Male,"Transport accidents",3836
+2017,Male,"Cerebrovascular diseases",3811
+2017,Male,"Malignant neoplasm of trachea, bronchus and lung",1573
+2017,Female,"Pneumonia",5371
+2017,Female,"Ischaemic heart diseases",4007
+2017,Female,"Cerebrovascular diseases",3067
+2017,Female,"Malignant neoplasm of breast",1679
+2017,Female,"Malignant neoplasm of trachea, bronchus and lung",678
+2018,Male,"Ischaemic heart diseases",12510
+2018,Male,"Pneumonia",7771
+2018,Male,"Cerebrovascular diseases",5067
+2018,Male,"Transport accidents",3718
+2018,Male,"Chronic lower respiratory diseases",2067
+2018,Female,"Pneumonia",6033
+2018,Female,"Ischaemic heart diseases",5757
+2018,Female,"Cerebrovascular diseases",4087
+2018,Female,"Malignant neoplasm of breast",1968
+2018,Female,"Diabetes mellitus",1512
+2019,Male,"Ischaemic heart diseases",11339
+2019,Male,"Pneumonia",7591
+2019,Male,"Cerebrovascular diseases",4902
+2019,Male,"Transport accidents",3572
+2019,Male,"Malignant neoplasm of trachea, bronchus and lung",1802
+2019,Female,"Pneumonia",5793
+2019,Female,"Ischaemic heart diseases",4997
+2019,Female,"Cerebrovascular diseases",3797
+2019,Female,"Malignant neoplasm of breast",1865
+2019,Female,"Diabetes mellitus",1051
+2020,Male,"Ischaemic heart diseases",12717
+2020,Male,"Pneumonia",7357
+2020,Male,"Cerebrovascular diseases",5070
+2020,Male,"Transport accidents",2724
+2020,Male,"Malignant neoplasm of trachea, bronchus and lung",1828
+2020,Female,"Ischaemic heart diseases",5809
+2020,Female,"Pneumonia",5067
+2020,Female,"Cerebrovascular diseases",4035
+2020,Female,"Malignant neoplasm of breast",1943
+2020,Female,"Diabetes mellitus",1086
+2021,Male,"COVID-19 infection",17708
+2021,Male,"Ischaemic heart diseases",14532
+2021,Male,"Pneumonia",10084
+2021,Male,"Cerebrovascular diseases",5712
+2021,Male,"Transport accidents",2662
+2021,Female,"COVID-19 infection",13355
+2021,Female,"Pneumonia",7419
+2021,Female,"Ischaemic heart diseases",6953
+2021,Female,"Cerebrovascular diseases",4469
+2021,Female,"Malignant neoplasm of breast",1920
+2022,Male,"Ischaemic heart diseases",13817
+2022,Male,"Pneumonia",9569
+2022,Male,"Cerebrovascular diseases",5156
+2022,Male,"Transport accidents",3451
+2022,Male,"COVID-19 infection",3060
+2022,Female,"Pneumonia",7201
+2022,Female,"Ischaemic heart diseases",6505
+2022,Female,"Cerebrovascular diseases",3993
+2022,Female,"COVID-19 infection",2254
+2022,Female,"Malignant neoplasm of breast",1910

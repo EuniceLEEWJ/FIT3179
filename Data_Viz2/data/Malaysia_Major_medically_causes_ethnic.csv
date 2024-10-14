@@ -1,0 +1,26 @@
+Ethnic Group,Category,Causes,Number of Cases
+Malay,Medically certified,"Ischaemic heart diseases",12127
+Malay,Medically certified,"Pneumonia",9435
+Malay,Medically certified,"Cerebrovascular diseases",5507
+Malay,Medically certified,"COVID-19 infection",2879
+Malay,Medically certified,"Transport accidents",2606
+Chinese,Medically certified,"Ischaemic heart diseases",4513
+Chinese,Medically certified,"Pneumonia",4266
+Chinese,Medically certified,"Cerebrovascular diseases",2061
+Chinese,Medically certified,"COVID-19 infection",1436
+Chinese,Medically certified,"Malignant neoplasm of trachea, bronchus and lung",1070
+Indians,Medically certified,"Ischaemic heart diseases",2482
+Indians,Medically certified,"Pneumonia",1444
+Indians,Medically certified,"Cerebrovascular diseases",665
+Indians,Medically certified,"Transport accidents",485
+Indians,Medically certified,"COVID-19 infection",368
+Others,Medically certified,"Ischaemic heart diseases",168
+Others,Medically certified,"Pneumonia",157
+Others,Medically certified,"Transport accidents",60
+Others,Medically certified,"Cerebrovascular diseases",56
+Others,Medically certified,"COVID-19 infection",48
+Non-citizen,Medically certified,"Ischaemic heart diseases",304
+Non-citizen,Medically certified,"COVID-19 infection",264
+Non-citizen,Medically certified,"Pneumonia",261
+Non-citizen,Medically certified,"Cerebrovascular diseases",149
+Non-citizen,Medically certified,"Transport accidents",46
