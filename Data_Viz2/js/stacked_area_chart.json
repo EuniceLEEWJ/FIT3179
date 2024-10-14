@@ -2,9 +2,6 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 900,
     "height": 600,
-    "title": "Population Distribution by Ethnicity in Malaysia Across All States",
-    "fontSize": 20,
-    "anchor": "middle",
     "data": {
       "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/Population_by_states_malaysia.csv",
       "format": {"type": "csv"}
