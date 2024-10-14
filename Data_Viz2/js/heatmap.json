@@ -4,15 +4,20 @@
     "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/cause_of_death.csv",
     "format": { "type": "csv" }
   },
-  "title": {
-      "text": "Understanding Global Mortality Causes",
-      "fontSize": 20,
-      "anchor": "middle",
-      "dy": -10
-    },
   "width": 900,
   "height": 600,
   "mark": "rect",
+  "transform": [
+    {
+      "calculate": "log(datum.Number_of_Deaths + 1)",  
+      "as": "Log_Number_of_Deaths"
+    },
+    {
+      "bin": {"maxbins": 10},  
+      "field": "Log_Number_of_Deaths",
+      "as": "Binned_Log_Number_of_Deaths"
+    }
+  ],
   "encoding": {
     "y": {
       "field": "Country",
@@ -25,19 +30,20 @@
       "type": "nominal",
       "title": "Cause of Death",
       "axis": {
-        "labelAngle": -45  
+        "labelAngle": -45,
+        "labelExpr": "replace(replace(replace(replace(replace(datum.label, '_', ' '), 'Self.harm', 'Self harm'), ' use ', ' use '), 'Drug use_disorders', 'Drug use disorders'), 'Alcohol use_disorders', 'Alcohol use disorders')"
       }
     },
     "color": {
-      "aggregate": "sum",
-      "field": "Number_of_Deaths",
-      "title": "Number of Deaths",
+      "field": "Binned_Log_Number_of_Deaths",  
+      "title": "Binned Log of Number of Deaths",
       "scale": {
-        "range": ["#ffe5ec", "#fb6f92", "#ff8fab", "#ffb3c6", "#ffc2d1"]
+        "type": "linear",  
+        "range": ["#d7191c", "#ffffbf", "#313695"]
       },
       "legend": {
         "orient": "right",
-        "title": "Number of Deaths"
+        "title": "Binned Log of Number of Deaths"
       }
     },
     "tooltip": [
@@ -52,6 +58,12 @@
         "type": "quantitative",
         "title": "Total Deaths",
         "format": ","
+      },
+      {
+        "field": "Log_Number_of_Deaths",
+        "type": "quantitative",
+        "title": "Log of Total Deaths",
+        "format": ".2f"
       }
     ]
   },
@@ -59,11 +71,6 @@
     "axis": {
       "grid": true,
       "tickBand": "extent"
-    },
-    "title": {
-      "text": "Distribution of Causes of Death by Country",
-      "fontSize": 20,
-      "anchor": "middle"
     }
   }
 }
