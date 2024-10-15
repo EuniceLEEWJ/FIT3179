@@ -1,13 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 500,
-  "height": 300,
-  "title": {
-    "text": "Distribution of Death Rate in Malaysia by Gender",
-    "fontSize": 20,
-    "anchor": "middle",
-    "dy": -15
-  },
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/combined_death_rates_malaysia.csv",
     "format": { "type": "csv" }
