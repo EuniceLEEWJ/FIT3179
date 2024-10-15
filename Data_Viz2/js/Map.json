@@ -1,10 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Death Rates Around the World",
-    "fontSize": 20,
-    "anchor": "middle"
-  },
   "width": 1000,
   "height": 600,
   "data": {
