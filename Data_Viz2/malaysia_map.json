@@ -1,0 +1,143 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 1110,
+    "height": 500,
+    "projection": {"type": "mercator", "scale": 3500, "center": [109, 4]},
+    "data": {
+      "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/ne_1.topojson",
+      "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+    },
+    "params": [
+      {
+        "name": "CrudeDeathRateRange",
+        "value": 2,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 8.9,
+          "step": 0.1,
+          "name": "Crude Death Rate: "
+        }
+      }
+    ],
+    "layer": [
+      {
+        "transform": [
+          {
+            "calculate": "'Data is not available in ' + datum.properties.name",
+            "as": "note"
+          }
+        ],
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+        "encoding": {"tooltip": {"field": "note"}}
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/ne_1.topojson",
+          "format": {"type": "topojson", "feature": "ne_110m_graticules_5"}
+        },
+        "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/malaysia.state.json",
+          "format": {
+            "type": "topojson",
+            "feature": "malaysia.state"
+          }
+        },
+        "transform": [
+          {
+            "lookup": "properties.name",
+            "from": {
+              "data": {
+                "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/Malaysia_Total_deaths_states.csv",
+                "format": {
+                  "type": "csv"
+                }
+              },
+              "key": "State",
+              "fields": ["Crude death rate", "Deaths"]
+            }
+          }
+        ],
+        "mark": {
+          "type": "geoshape",
+          "stroke": "black",
+          "strokeWidth": 0.5
+        },
+        "encoding": {
+          "color": {
+            "field": "Crude death rate",
+            "type": "quantitative",
+            "scale": {
+              "type": "threshold",
+              "domain": [2, 3, 4, 5, 6, 7, 8],
+              "range": [
+                "#fee0d2",
+                "#fcbba1",
+                "#fc9272",
+                "#fb6a4a",
+                "#ef3b2c",
+                "#cb181d",
+                "#a50f15",
+                "#67000d"
+              ]
+            },
+            "legend": {
+              "title": "Crude Death Rate (per 1,000 population)",
+              "titleLimit": 300,
+              "orient": "bottom-right",
+              "direction": "horizontal",
+              "titleFontSize": 15,
+              "titleFont": "Serif",
+              "labelFont": "Serif",
+              "labelFontSize": 13
+            }
+          },
+          "opacity": {
+            "condition": {
+              "test": "datum['Crude death rate'] <= CrudeDeathRateRange",
+                "value": 1
+            },
+            "value": 0.5
+          },
+          "tooltip": [
+            {
+              "field": "properties.name",
+              "type": "nominal",
+              "title": "State"
+            },
+            {
+              "field": "Deaths",
+              "type": "quantitative",
+              "title": "Total Deaths"
+            },
+            {
+              "field": "Crude death rate",
+              "type": "quantitative",
+              "title": "Crude Death Rate per 1,000 population",
+              "format": ".2f"
+            }
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "right",
+          "baseline": "top",
+          "fontSize": 12,
+          "font": "Source Sans Pro, sans-serif",
+          "fill": "black",
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"field": "properties.name"},
+          "longitude": {"field": "properties.longitude", "type": "quantitative"},
+          "latitude": {"field": "properties.latitude", "type": "quantitative"}
+        }
+      }
+    ]
+  }
+  
