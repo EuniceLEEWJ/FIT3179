@@ -2,157 +2,194 @@
 <html lang="en">
 
 <head>
-  <title>Visualisations | Mortality Data</title>
+    <title>Visualisations | Mortality Data</title>
 
-  <!-- Import Vega & Vega-Lite -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <!-- Import Vega & Vega-Lite -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-  <!-- Import pure.css -->
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lobster&display=swap" rel="stylesheet">
 
-  <!-- Google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lobster&display=swap" rel="stylesheet">
-
-  <!-- Link CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
 
-  <div class="page">
-
-    <!-- Page Title and Subtitle Container -->
-    <div class="title-box-main">
-      <!-- Page Title -->
-      <div class="page-title">The Cycle of Life and Death</div>
-      <!-- Subtitle -->
-      <div class="subtitle">A deep look into global mortality patterns and their implications.</div>
-    </div>
-
-    <!-- First Visualization (Choropleth Map) -->
-    <div class="pure-g">
-      <div class="pure-u-1">
-        <div class="title-box">
-          <h2>Global Death Rates</h2>
-          <div class="subtitle">A comparative view of global mortality rates by country.</div>
+    <div class="page">
+        <!-- Page Title and Subtitle Container -->
+        <div class="title-box-main">
+            <div class="page-title">The Cycle of Life and Death</div>
+            <div class="subtitle">A deep look into Mortality Patterns and their Implications.</div>
         </div>
-        <div class="spacing"></div>
-        <div id="choropleth_map" class="vis-container"></div>
-      </div>
-    </div>
 
-    <div class="spacing"></div>
+        <div class="subtitle">This dashboard consists of <strong>two main sections</strong>. 
+            The first section explores <strong>global mortality patterns</strong>, 
+            offering insights into <strong>death rates across different regions</strong> and the <strong>worldwide cause of death</strong>. 
+            The second section focuses on <strong>Malaysia</strong>, providing visualizations of <strong>death rates by state</strong>, 
+            <strong>ethnicity distribution</strong>, <strong>gender disparities </strong>, <strong>trends over time</strong>.</div>
 
-    <!-- Second Visualization (Heatmap) -->
-    <div class="pure-g">
-      <div class="pure-u-1">
-        <div class="title-box">
-          <h2>Heatmap of Mortality Causes</h2>
-          <div class="subtitle">Shows intensity by cause of death and regions.</div>
+        <!-- Global Death Rates-->
+        <div class="subsection-title">
+            <h6>Overview of Global Death Rates</h6>
+            <div class="divider"></div>
         </div>
-        <div class="spacing"></div>
-        <div id="heatmap" class="vis-container"></div>
-      </div>
-    </div>
 
-    <div class="spacing"></div>
+        <!-- Global Visualizations -->
+        <div class="pure-g">           
+            <div class="vis-container" id="choropleth_map"></div>
+            <div class="pure-u-1">
+                <div style="height: 30px;"></div>
 
-    <!-- Third Visualization (Mortality Trends) -->
-    <div class="pure-g">
-      <div class="pure-u-1">
-        <div class="title-box">
-          <h2>Trends Over Time</h2>
-          <div class="subtitle">How mortality trends have evolved from 2015 to 2023.</div>
-        </div>     
-        <div class="spacing"></div>
-        <div id="mortality_trends" class="vis-container"></div>
-      </div>
-    </div>
-
-    <div class="spacing"></div>
-
-    <!-- Fourth Visualization (Stacked Bar Chart) -->
-    <div class="pure-g">
-      <div class="pure-u-1">
-        <div class="title-box">
-          <h2>Death Rates in Malaysia</h2>
-          <div class="subtitle">This bar chart visualizes the death rates in Malaysia, categorized by age group and gender, for the selected year (2000-2023).</div>
+                <div class="subtitle">Countries in <strong>Eastern Europe</strong> and parts of <strong>Central Asia</strong> display the highest death rates, 
+                    while regions like <strong>Australia</strong>, <strong>Western Europe</strong>, and <strong>East Asia</strong> have lower rates. 
+                    Variations in mortality often reflect disparities in healthcare access, economic development, 
+                    and public health challenges.</div>
+            </div>
         </div>
-        <div class="spacing"></div>
-        <div id="stacked_bar_chart" class="vis-container"></div>
-      </div>
-    </div>
+        <div style="height: 30px;"></div>
 
-    <div class="spacing"></div>
-
-    <!-- Fifth Visualization (Donut Chart) -->
-    <div class="pure-g">
-      <div class="pure-u-1">
-        <div class="title-box">
-          <h2>Mortality by Gender</h2>
-          <div class="subtitle">This donut chart illustrates the distribution of total death rates in Malaysia by gender for a selected year (2000-2023).</div>
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <div class="title-box">
+                    <h2>Heatmap of Mortality Causes</h2>
+                </div>
+                <div class="vis-container" id="heatmap"></div>
+                <div style="height: 30px;"></div>
+               
+                <div class="subtitle"><strong>Cardiovascular diseases</strong> and <strong>respiratory infections</strong> are major health concerns globally. 
+                    <strong>India</strong> and <strong>China</strong> have <strong>high mortality rates</strong> for cardiovascular diseases, 
+                    while <strong>Afghanistan</strong> and <strong>Yemen</strong> have <strong>high mortality rates</strong> for <strong>infectious diseases</strong>, 
+                    possibly due to ongoing conflicts and limited healthcare access.</div>
+            </div>
         </div>
-        <div class="spacing"></div>
-        <div id="donut_chart" class="vis-container"></div>
-      </div>
-    </div>
 
-    <div class="spacing"></div>
-
-    <!-- Sixth Visualization (Stacked Area Chart) -->
-    <div class="pure-g">
-      <div class="pure-u-1">
-        <div class="title-box">
-          <h2>Ethnicity Distribution in Malaysia by State</h2>
-          <div class="subtitle">This area chart displays the population distribution by ethnicity in Malaysia across various states over time.</div>
+        <!-- Overview of Death Rates in Malaysia Section -->
+        <div class="subsection-title">
+            <h6>Overview of Death Rates in Malaysia</h6>
         </div>
-        <div class="spacing"></div>
-        <div id="stacked_area_chart" class="vis-container"></div>
-      </div>
+
+        <!-- Malaysia Visualizations -->
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <div class="title-box">
+                    
+                </div>
+                <div class="vis-container" id="malaysia_map"></div>
+                <div style="height: 30px;"></div>
+
+                <div class="subtitle"><strong>Peninsula States</strong> have <strong>higher death rates</strong> due to older populations and economic challenges. 
+                    <strong>Sabah</strong> and <strong>Sarawak</strong> have <strong>lower death rates</strong>, possibly due to demographics, healthcare practices, or socioeconomic conditions. 
+                    <strong>Perak</strong> has the <strong>highest rate</strong> at <strong>8.9</strong> per 1,000 population, while <strong>Selangor</strong> has the <strong>lowest</strong> at <strong>4.7</strong>, 
+                    reflecting better healthcare infrastructure and younger demographics.
+                </div>
+            </div>
+        </div>
+        <div style="height: 30px;"></div>
+
+
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <div class="title-box">
+                    <h2>Ethnicity Distribution in Malaysia by State</h2>
+                </div>
+                <div class="vis-container" id="stacked_area_chart"></div>
+            </div>
+        </div>
+
+
+        <div class="pure-u-1 donut-container">
+            <div class="donut-container-vis-container" id="donut_chart"></div>
+            <div class="donut-text">
+                <h2>Mortality by Gender</h2>
+                <div style="height: 30px;"></div>
+                <div style="height: 30px;"></div>
+
+                <div class="subtitle donut-subtitle">The <strong>total death rates</strong> for <strong style="color: #fbc740">males</strong> 
+                    in Malaysia have consistently been </strong>higher</strong> than those for <strong style="color: #ffafcc">females</strong>. 
+                    This trend may be attributed to various factors, including lifestyle choices that are often less healthy among 
+                    <strong style="color: #fbc740">males</strong>. Men may engage in <strong>riskier behaviors</strong>, such as higher 
+                    rates of smoking, alcohol consumption, which contribute to <strong>poorer health outcomes</strong>.
+                </div>
+            </div>
+        </div>
+        <div style="height: 30px;"></div>
+
+
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <div class="title-box">
+                    <h2>Death Rates Trends in Malaysia</h2>
+                </div>
+                <div class="vis-container" id="line_chart"></div>
+            </div>
+        </div>
+
     </div>
 
-  </div>
+    <footer>
+        <p>© 2024 Visualization prepared by Eunice Lee 33250979</p>
+        <p>Data Sources:</p>
+        <p class="data-sources"><a href="https://ourworldindata.org/grapher/population">Population</a> by Our World in Data (2024)| Extract words from <a href="https://population.un.org/wpp/Download/Standard/Mortality/">Mortality</a> by United Nations (2024)</p>
+        <p class="data-sources"><a href="https://ourworldindata.org/causes-of-death">Cause of Death</a> by Saloni Dattani, Fiona Spooner, Hannah Ritchie and Max Roser(n.d.)  | <a href="https://population.un.org/wpp/Download/Standard/Population/">Population with Age Groups</a> by United Nations (2024)</p>
+    </footer>
 
-  <!-- Script to Embed the Charts -->
-  <script type="text/javascript">
-    var vg_1 = "./js/Map.json";
-    var vg_2 = "./js/heatmap.json";
-    var vg_3 = "./js/Bar_chart.json";
-    var vg_4 = "./js/stacked_bar_chart.json";
-    var vg_5 = "./js/donut_chart.json";
-    var vg_6 = "./js/stacked_area_chart.json";
+    <!-- Script to Embed the Charts -->
+    <script type="text/javascript">
+        var vg_1 = "Map.json";                // Choropleth map
+        var vg_2 = "heatmap.json";            // Heatmap
+        var vg_3 = "malaysia_map.json";       // Mortality map for Malaysia
+        var vg_4 = "stacked_area_chart.json"; // Stacked area chart
+        var vg_5 = "donut_chart.json";        // Donut chart
+        var vg_6 = "line_chart.json";         // Line chart
 
-    vegaEmbed('#choropleth_map', vg_1).then(function(result) {
-      console.log("Choropleth map loaded successfully");
-    }).catch(console.error);
+        // Embed each visualization
+        vegaEmbed('#choropleth_map', vg_1)
+            .then(function(result) {
+                console.log("Choropleth map loaded successfully");
+            })
+            .catch(console.error);
 
-    vegaEmbed('#heatmap', vg_2).then(function(result) {
-      console.log("Heatmap loaded successfully");
-    }).catch(console.error);
+        vegaEmbed('#heatmap', vg_2)
+            .then(function(result) {
+                console.log("Heatmap loaded successfully");
+            })
+            .catch(console.error);
 
-    vegaEmbed('#mortality_trends', vg_3).then(function(result) {
-      console.log("Mortality trends loaded successfully");
-    }).catch(console.error);
+        vegaEmbed('#malaysia_map', vg_3)
+            .then(function(result) {
+                console.log("Malaysia map loaded successfully");
+            })
+            .catch(console.error);
 
-    vegaEmbed('#stacked_bar_chart', vg_4).then(function(result) {
-      console.log("Stacked bar chart loaded successfully");
-    }).catch(console.error);
+        vegaEmbed('#stacked_area_chart', vg_4)
+            .then(function(result) {
+                console.log("Stacked area chart loaded successfully");
+            })
+            .catch(console.error);
 
-    vegaEmbed('#donut_chart', vg_5).then(function(result) {
-      console.log("Donut chart loaded successfully");
-    }).catch(console.error);
+        vegaEmbed('#donut_chart', vg_5)
+            .then(function(result) {
+                console.log("Donut chart loaded successfully");
+            })
+            .catch(console.error);
 
-    vegaEmbed('#stacked_area_chart', vg_6).then(function(result) {
-      console.log("Stacked area chart loaded successfully");
-    }).catch(console.error);
-  </script>
+        vegaEmbed('#line_chart', vg_6)
+            .then(function(result) {
+                console.log("Line chart loaded successfully");
+            })
+            .catch(console.error);
+    </script>
+
 </body>
 
 </html>
