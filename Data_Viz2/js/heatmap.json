@@ -39,7 +39,7 @@
       "title": "Binned Log of Number of Deaths",
       "scale": {
         "type": "linear",  
-        "range": ["#d7191c", "#ffffbf", "#313695"]
+        "range": ["#6acaf7", "#7b9be0","#935dc1", "#6a095d"]
       },
       "legend": {
         "orient": "right",
