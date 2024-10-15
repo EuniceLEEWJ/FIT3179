@@ -2,10 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 1000,
   "height": 500,
-  "title": {
-    "text": "Death Rates in Malaysia by Age Group and Gender",
-    "dy": -10
-  },
   "data": {
     "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/combined_death_rates_malaysia_updated.csv",
     "format": {"type": "csv"}
@@ -71,6 +67,192 @@
           "type": "quantitative",
           "axis": {"title": "Death Rate per 1000 Population"}
         }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 14,
+        "font": "Arial",
+        "fontWeight": "lighter"
+
+      },
+      "encoding": {
+        "text": {"value": "Mortality increases significantly with age, peaking in the"},
+        "x": {"value": 100},
+        "y": {"value": 100},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 16,
+        "font": "Arial",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"value": "75-79 age group"},
+        "x": {"value": 100},
+        "y": {"value": 120},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 14,
+        "font": "Arial",
+        "fontWeight": "lighter"
+
+      },
+      "encoding": {
+        "text": {"value": "for both"},
+        "x": {"value": 235},
+        "y": {"value": 120},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 16,
+        "font": "Arial",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"value": "males"},
+        "x": {"value": 290},
+        "y": {"value": 120},
+        "color": {"value": "#fbc740"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 14,
+        "font": "Arial",
+        "fontWeight": "lighter"
+
+      },
+      "encoding": {
+        "text": {"value": "and"},
+        "x": {"value": 340},
+        "y": {"value": 120},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 16,
+        "font": "Arial",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"value": "females."},
+        "x": {"value": 370},
+        "y": {"value": 120},
+        "color": {"value": "#ffafcc"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 14,
+        "font": "Arial",
+        "fontWeight": "lighter"
+
+      },
+      "encoding": {
+        "text": {"value": "The"},
+        "x": {"value": 100},
+        "y": {"value": 150},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 16,
+        "font": "Arial",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"value": "higher mortality rates"},
+        "x": {"value": 130},
+        "y": {"value": 150},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 14,
+        "font": "Arial",
+        "fontWeight": "lighter"
+
+      },
+      "encoding": {
+        "text": {"value": "for males across most age groups suggest gender"},
+        "x": {"value": 100},
+        "y": {"value": 170},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "dy": -5,
+        "fontSize": 14,
+        "font": "Arial",
+        "fontWeight": "lighter"
+
+      },
+      "encoding": {
+        "text": {"value": "disparities in health risks."},
+        "x": {"value": 100},
+        "y": {"value": 190},
+        "color": {"value": "black"}
       }
     }
   ]
