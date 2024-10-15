@@ -4,7 +4,7 @@
     "url": "https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/data/cause_of_death.csv",
     "format": { "type": "csv" }
   },
-  "width": 900,
+  "width": 800,
   "height": 600,
   "mark": "rect",
   "transform": [
