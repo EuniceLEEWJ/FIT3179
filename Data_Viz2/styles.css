@@ -1,0 +1,234 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #F4F4F9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-image: url('https://raw.githubusercontent.com/EuniceLEEWJ/FIT3179/main/Data_Viz2/image/human.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0;
+  color: #333;
+  margin: 2rem auto;
+  text-align: center;
+  position: relative;
+  z-index: 0; /* Ensure the background is behind all content */
+}
+
+/* Reduce the visibility of the background using a transparent overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* White overlay with 50% opacity */
+  z-index: -1; /* Place behind content */
+}
+
+
+
+/* Enhanced Page Title Styling */
+.page-title {
+  font-family: 'Lobster', cursive; /* Using Lobster for a unique look */
+  font-size: 48px; /* Larger font size for more impact */
+  color: #2c3e50;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow */
+  letter-spacing: 2px; /* Slightly increasing letter spacing */
+  margin-bottom: 15px;
+}
+
+
+/* Adding background styling for the title box */
+.title-box-main {
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 5px solid #2c3e50;
+  border-radius: 15px;
+  background: linear-gradient(135deg, rgba(243, 246, 250, 0.9) 0%, rgba(238, 242, 247, 0.9) 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+
+/* Subtitle Styling Adjustments */
+.subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #34495e;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.page {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 1200px;
+  background-color: #e2e2e4; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.vis-container {
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: rgba(238, 242, 247, 0.9); /* Semi-transparent background for contrast */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.vis-container:hover {
+  transform: scale(1.02);
+}
+
+/* Title and section headings */
+h2 {
+  font-family: 'Times New Roman', serif; /* Example of a serif typeface */
+  text-align: center;
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Box for main title */
+.title-box-main {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 5px solid #2c3e50;
+  border-radius: 15px;
+  background-color: rgba(243, 246, 250, 0.9);
+  margin-bottom: 40px;
+}
+
+/* Visual container styling */
+.vis {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: rgba(238, 242, 247, 0.9);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styles for donut chart section */
+.donut-container {
+  display: flex;
+  justify-content: space-between; /* Distribute space more evenly */
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+
+  background-color: rgba(238, 242, 247, 0.9); /* Semi-transparent background for contrast */
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  box-sizing: border-box; /* Ensure padding and borders are included within width */
+}
+
+.donut-container .vis-container {
+  width: 30%;
+  margin-right: 5%;
+  box-sizing: border-box; /* Include padding and borders in width calculation */
+}
+
+.donut-text {
+  width: 50%;
+  text-align: left;
+  flex-grow: 1; /* Ensure the text container grows appropriately */
+  box-sizing: border-box;
+}
+
+.donut-text h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .donut-container {
+    flex-direction: column;
+  }
+
+  .donut-container .vis-container, .donut-text {
+    width: 100%;
+  }
+}
+
+
+/* Footer styling */
+.data-sources{
+  font-style: italic;
+  font: 16px;
+}
+
+footer {
+  background-color: #264653; /* Dark background color */
+  color: #cecece; /* Light text color */
+  text-align: center; /* Center the text */
+  padding: 20px; /* Padding inside the footer */
+  font-size: 26px; /* Adjust font size */
+  max-width: 1250px; /* Match the max-width of the content */
+  border-radius: 15px;
+  margin: 0 auto; /* Center align the footer */
+  position: relative; /* Keep it at the bottom of the content */
+  bottom: 0; /* Align at the bottom */
+}
+
+footer p {
+  margin-top: 0.1rem;
+  font-size:x-small;
+}
+
+footer a {
+  color: #a0ddf6; /* Change link color */
+  text-decoration: none; /* Remove underline from links */
+}
+/* Subsection container */
+.subsection-container {
+  padding: 20px; /* Add padding if necessary */
+  width: 100%; /* Ensure it takes up the full width */
+  display: flex;
+  justify-content: center; /* Center the content if needed */
+}
+
+/* Divider */
+h6 {
+  color: #264653;
+  font-family: 'Arbil Fatface', serif;
+  font-size: 36px; /* Keep as is */
+  font-weight: 800;
+  margin: 0; /* Remove any extra margin */
+  padding-right: 1rem;
+}
+
+.divider {
+  background-color: #264653;
+  flex-grow: 1;
+  height: 0.3rem; /* Adjust the height as needed */
+  margin: 0; /* Remove any margin */
+}
+
+.subsection-title {
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  gap: 10px; /* Optional, adds space between text and divider */
+  width: 100%; /* Ensure full width for better layout control */
+}
+
+
+
